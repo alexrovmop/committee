@@ -1,0 +1,241 @@
+/*导航栏*/
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: PingFangSC-Regular,'Microsoft Yahei';
+}
+
+.header {
+    // height: 140px;
+    .navbar-default{
+        border: none;
+        background: none;
+    }
+    .navpadding{
+        padding-top: 18px;
+        .navbar-collapse{
+            .navbar-nav{
+                a{
+                    background: none;
+                }
+                .active{
+                    border-bottom: 5px solid #51b2f1;
+                    background: none;
+                }
+            }
+        }
+    }
+    .navbar-brand .logo {
+        height: 100%;
+        width: auto;
+        vertical-align: middle;
+        margin-right: 20px;
+        float: left;
+    }
+    .navbar-brand {
+        height: 100%;
+    }
+
+    h1 {
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 1.5;
+        color: #0a5da9;
+        max-width: 320px;
+        float: left;
+        margin: 10px 0;
+    }
+
+    .nav-title {
+        // height: 140px;
+
+        li {
+            a {
+                font-size: 18px;
+                line-height: 60px;
+                color: rgb(48, 48, 48);
+
+                &:hover {
+                    border-bottom: 5px solid #51b2f1;
+                    background: none;
+                }
+            }
+        }
+    }
+}
+
+/*footer*/
+.footer {
+    background: #131d27;
+    padding-top: 80px;
+    color: rgb(129, 133, 136);
+
+    .footer-top {
+        .footer-nav {
+            >ul {
+                a{
+                    text-decoration: none;
+                    color: white;
+                    font-size: 12px;
+                }
+                display: flex;
+                justify-content: space-around;
+                >li {
+                   >a{
+                       font-size: 16px;
+                       margin-bottom: 10px;
+                   }
+                    margin-bottom: 20px;
+                }
+            }
+        }
+
+        .footerTitle {
+            font-size: 18px;
+            color: white;
+        }
+
+        .wx {
+            text-align: center;
+            padding-right: 50px;
+
+            p {
+                margin-top: 20px;
+            }
+        }
+
+        .relation {
+            h4 {
+                margin: 0;
+                font-family: "MicrosoftYaHei";
+                font-size: 18px;
+                color: white;
+                margin-bottom: 11px;
+            }
+
+            .telephone {
+                font-family: "CenturyGothic";
+                font-size: 34px;
+                color: rgb(243, 248, 251);
+            }
+        }
+    }
+
+    .footer-bottom {
+        text-align: center;
+
+        .share {
+            margin-bottom: 20px;
+        }
+    }
+}
+@media screen and (max-width: 992px) {
+    .footer{
+        .footer-top{
+            .relation{
+                text-align: center;
+            }
+        }
+    }
+}
+/*通用样式*/
+.contentC {
+    background: #f2f4f6;
+    padding-top: 30px;
+    .container{
+        .row{
+            margin: 0;
+        }
+    }
+    .content {
+        .content-menus {
+            &>ul {
+                &>li {
+                    height: 60px;
+                    text-align: center;
+                    line-height: 60px;
+                    background: white;
+                    border: 1px solid #f2f4f6;
+
+                    &>a {
+                        color: black;
+                        text-decoration: none;
+                    }
+
+                    &:hover {
+                        background: rgb(81, 178, 241);
+                        color: white;
+
+                        &>a {
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.content {
+    .contetn-exhibition {
+        background: white;
+        
+        .workDetails {
+            border-top:1px solid #f2f4f6;
+            border-bottom:1px solid #f2f4f6;
+            .list {
+                li {
+                    padding: 20px 15px;
+                    a{
+                        color: rgb(46, 46, 46);
+                        text-decoration: none;
+                        font-size: 18px;
+                    }
+                    span{
+                        float:right;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+        .contetn-exhibition-header {
+            height: 57px;
+            color: #a4a5a7;
+            display: flex;
+            line-height: 57px;
+            justify-content: flex-end;
+
+            .breadcrumb {
+                &>li {
+                    &>a {
+                        color: rgb(96, 101, 106);
+                    }
+                }
+            }
+        }
+        .pageTurning {
+            .pager {
+               
+                li {
+                    .bgButton{
+                        padding-left: 40px;
+                        padding-right: 40px;
+                    }
+                    .nextButton{ 
+                        transform:rotateY(180deg);
+                    }
+                    a {
+                        border-radius: 0;
+                        border: 2px solid #e8e8e8;
+
+                        &:hover {
+                            background: #5abdf8;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

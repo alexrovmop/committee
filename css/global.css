@@ -1,0 +1,176 @@
+/*导航栏*/
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: PingFangSC-Regular, 'Microsoft Yahei';
+}
+.header .navbar-default {
+  border: none;
+  background: none;
+}
+.header .navpadding {
+  padding-top: 18px;
+}
+.header .navpadding .navbar-collapse .navbar-nav a {
+  background: none;
+}
+.header .navpadding .navbar-collapse .navbar-nav .active {
+  border-bottom: 5px solid #51b2f1;
+  background: none;
+}
+.header .navbar-brand .logo {
+  height: 100%;
+  width: auto;
+  vertical-align: middle;
+  margin-right: 20px;
+  float: left;
+}
+.header .navbar-brand {
+  height: 100%;
+}
+.header h1 {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #0a5da9;
+  max-width: 320px;
+  float: left;
+  margin: 10px 0;
+}
+.header .nav-title li a {
+  font-size: 18px;
+  line-height: 60px;
+  color: #303030;
+}
+.header .nav-title li a:hover {
+  border-bottom: 5px solid #51b2f1;
+  background: none;
+}
+/*footer*/
+.footer {
+  background: #131d27;
+  padding-top: 80px;
+  color: #818588;
+}
+.footer .footer-top .footer-nav > ul {
+  display: flex;
+  justify-content: space-around;
+}
+.footer .footer-top .footer-nav > ul a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+.footer .footer-top .footer-nav > ul > li {
+  margin-bottom: 20px;
+}
+.footer .footer-top .footer-nav > ul > li > a {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.footer .footer-top .footerTitle {
+  font-size: 18px;
+  color: white;
+}
+.footer .footer-top .wx {
+  text-align: center;
+  padding-right: 50px;
+}
+.footer .footer-top .wx p {
+  margin-top: 20px;
+}
+.footer .footer-top .relation h4 {
+  margin: 0;
+  font-family: "MicrosoftYaHei";
+  font-size: 18px;
+  color: white;
+  margin-bottom: 11px;
+}
+.footer .footer-top .relation .telephone {
+  font-family: "CenturyGothic";
+  font-size: 34px;
+  color: #f3f8fb;
+}
+.footer .footer-bottom {
+  text-align: center;
+}
+.footer .footer-bottom .share {
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 992px) {
+  .footer .footer-top .relation {
+    text-align: center;
+  }
+}
+/*通用样式*/
+.contentC {
+  background: #f2f4f6;
+  padding-top: 30px;
+}
+.contentC .container .row {
+  margin: 0;
+}
+.contentC .content .content-menus > ul > li {
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  background: white;
+  border: 1px solid #f2f4f6;
+}
+.contentC .content .content-menus > ul > li > a {
+  color: black;
+  text-decoration: none;
+}
+.contentC .content .content-menus > ul > li:hover {
+  background: #51b2f1;
+  color: white;
+}
+.contentC .content .content-menus > ul > li:hover > a {
+  color: white;
+}
+.content .contetn-exhibition {
+  background: white;
+}
+.content .contetn-exhibition .workDetails {
+  border-top: 1px solid #f2f4f6;
+  border-bottom: 1px solid #f2f4f6;
+}
+.content .contetn-exhibition .workDetails .list li {
+  padding: 20px 15px;
+}
+.content .contetn-exhibition .workDetails .list li a {
+  color: #2e2e2e;
+  text-decoration: none;
+  font-size: 18px;
+}
+.content .contetn-exhibition .workDetails .list li span {
+  float: right;
+  font-size: 18px;
+}
+.content .contetn-exhibition .contetn-exhibition-header {
+  height: 57px;
+  color: #a4a5a7;
+  display: flex;
+  line-height: 57px;
+  justify-content: flex-end;
+}
+.content .contetn-exhibition .contetn-exhibition-header .breadcrumb > li > a {
+  color: #60656a;
+}
+.content .contetn-exhibition .pageTurning .pager li .bgButton {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.content .contetn-exhibition .pageTurning .pager li .nextButton {
+  transform: rotateY(180deg);
+}
+.content .contetn-exhibition .pageTurning .pager li a {
+  border-radius: 0;
+  border: 2px solid #e8e8e8;
+}
+.content .contetn-exhibition .pageTurning .pager li a:hover {
+  background: #5abdf8;
+  color: white;
+}
+/*# sourceMappingURL=global.css.map */

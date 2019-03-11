@@ -1,0 +1,355 @@
+.title {
+  font-size: 36px;
+  text-align: center;
+  font-weight: normal;
+  margin: 54px 0 37px 0;
+}
+/*轮播图*/
+.transform {
+  transform: rotateY(180deg);
+  margin-right: 20px;
+  color: white;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.banner .carousel .carousel-inner .item .bannerMsg {
+  width: 587px;
+  height: 277px;
+  background: #51b2f1;
+  padding: 54px 0 37px 35px;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+.banner .carousel .carousel-inner .item .bannerMsg h1 {
+  font-size: 48px;
+  color: white;
+  margin: 0 0 23px 0;
+}
+.banner .carousel .carousel-inner .item .bannerMsg p {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 48px;
+}
+.banner .carousel .carousel-inner .item .bannerMsg > a {
+  display: block;
+  width: 168px;
+  height: 48px;
+  border: 3px solid white;
+  text-decoration: none;
+}
+.banner .carousel .carousel-inner .item .bannerMsg > a > span {
+  color: white;
+  line-height: 40px;
+  margin-left: 10px;
+}
+.banner .carousel .carousel-inner .item .bannerMsg > a .transform {
+  float: right;
+}
+.banner .carousel .carousel-inner .item .bannerPic {
+  width: 100%;
+  height: 720px;
+  background: center center no-repeat;
+  background-size: 100% auto;
+}
+.banner .carousel .carousel-indicators li {
+  width: 70px;
+  height: 10px;
+}
+/*重点项目*/
+.emphasisProject .project {
+  text-decoration: none;
+}
+.emphasisProject .project:hover > div > div {
+  opacity: 0.6;
+}
+.emphasisProject .project:hover p {
+  background: #51b2f1;
+  color: white;
+}
+.emphasisProject .project > div {
+  position: relative;
+}
+.emphasisProject .project > div > img {
+  width: 100%;
+}
+.emphasisProject .project > div .blue {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background: #54779d;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.emphasisProject .project > div .blue > div {
+  margin: 100px auto;
+  width: 158px;
+  height: 48px;
+  border: 3px solid white;
+  text-align: center;
+}
+.emphasisProject .project > div .blue > div .transform {
+  float: right;
+  margin-right: 64px;
+  margin-top: 3px;
+  font-size: 30px;
+}
+.emphasisProject .project p {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: black;
+  font-size: 18px;
+  text-indent: 20px;
+  line-height: 30px;
+  padding-top: 31px;
+  padding-bottom: 31px;
+  border-bottom: 2px solid #b1b1b1;
+}
+/*关于专家委员会*/
+.SpecialistBox .top .left,
+.SpecialistBox .top .right,
+.SpecialistBox .top .center {
+  height: 220px;
+  padding: 0;
+}
+.SpecialistBox .top .left img,
+.SpecialistBox .top .right img {
+  width: 100%;
+  height: 100%;
+}
+.SpecialistBox .top .center {
+  background: #51b2f1;
+  color: white;
+  text-align: center;
+}
+.SpecialistBox .top .center:hover {
+  background: #219ff3;
+}
+.SpecialistBox .top .center a {
+  display: block;
+  text-decoration: none;
+  margin-top: 75px;
+  font-size: 30px;
+  color: white;
+}
+.SpecialistBox .top .center p {
+  font-size: 14px;
+}
+.SpecialistBox .bottom .center a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  line-height: 38px;
+  margin-top: 92px;
+  color: #51b2f1;
+}
+.SpecialistBox .bottom .center > .boxA {
+  width: 128px;
+  height: 45px;
+  border: 3px solid #51b2f1;
+  margin: 0 auto;
+}
+.SpecialistBox .bottom .center > .boxA i {
+  color: #51b2f1;
+  float: right;
+  font-size: 24px;
+  margin: 4px 48px;
+}
+.SpecialistBox .bottom .left,
+.SpecialistBox .bottom .right,
+.SpecialistBox .bottom .center {
+  height: 220px;
+  padding: 0;
+}
+.SpecialistBox .bottom .left,
+.SpecialistBox .bottom .right {
+  background: #3cdcd6;
+  color: white;
+  text-align: left;
+  padding-top: 53px;
+  padding-left: 30px;
+}
+.SpecialistBox .bottom .left p,
+.SpecialistBox .bottom .right p {
+  text-align: left;
+}
+.SpecialistBox .bottom .left:hover,
+.SpecialistBox .bottom .right:hover {
+  background: #10cac4;
+}
+.SpecialistBox .bottom .left a,
+.SpecialistBox .bottom .right a {
+  text-decoration: none;
+  color: white;
+  margin-top: 53px;
+  font-size: 30px;
+}
+.SpecialistBox .bottom .left a .transform,
+.SpecialistBox .bottom .right a .transform {
+  float: right;
+  font-size: 24px;
+}
+.SpecialistBox .bottom .left a > img,
+.SpecialistBox .bottom .right a > img {
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+/*新闻动态*/
+.news {
+  margin-bottom: 81px;
+}
+.news .container .newsButton {
+  display: flex;
+  justify-content: center;
+  border: none;
+  font-size: 16px;
+}
+.news .container .newsButton .active {
+  border-color: #51b2f1;
+}
+.news .container .newsButton .active > a {
+  color: #51b2f1;
+}
+.news .container .newsButton > li {
+  width: 138px;
+  height: 48px;
+  border: 3px solid rgba(124, 128, 131, 0.4);
+  margin-right: 15px;
+  margin-left: 15px;
+  text-align: center;
+}
+.news .container .newsButton > li:hover {
+  border-color: #51b2f1;
+  background: white;
+}
+.news .container .newsButton > li > a {
+  border: none;
+  color: black;
+}
+.news .container .newsButton > li > a:hover {
+  background: white;
+  color: #51b2f1;
+}
+.news .container .newsDetails {
+  position: relative;
+}
+.news .container .newsDetails .more {
+  position: absolute;
+  right: 0;
+  bottom: -18px;
+  text-decoration: none;
+}
+.news .container .newsDetails .left > h3 {
+  font-family: 'CenturyGothic';
+  font-size: 30px;
+  margin-bottom: 30px;
+  text-indent: 20px;
+}
+.news .container .newsDetails .left .arrow {
+  text-decoration: none;
+}
+.news .container .newsDetails .left .arrow i {
+  color: #a3a3a3;
+  float: left;
+}
+.news .container .newsDetails .left .thumbnail-wrapper .thumbnail {
+  width: 400px;
+  border: none;
+}
+.news .container .newsDetails .left > a > img {
+  margin-bottom: 43px;
+}
+.news .container .newsDetails .left .newsTitle {
+  text-decoration: none;
+  display: block;
+  color: black;
+  margin-top: 23px;
+  font-family: "MicrosoftYaHei";
+  font-size: 18px;
+  margin-bottom: 34px;
+}
+.news .container .newsDetails .left p {
+  color: #60656a;
+  font-size: 16px;
+  text-align: left;
+}
+.news .container .newsDetails .right {
+  padding-left: 80px;
+  flex: 1;
+}
+.news .container .newsDetails .right > ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.news .container .newsDetails .right > ul > li {
+  position: relative;
+  padding-left: 15px;
+  border-bottom: 1px solid rgba(212, 212, 212, 0.6);
+}
+.news .container .newsDetails .right > ul > li::before {
+  position: absolute;
+  content: "";
+  display: block;
+  height: 3px;
+  width: 3px;
+  background: #666;
+  left: 4px;
+  top: 48px;
+}
+.news .container .newsDetails .right > ul > li > p {
+  margin-left: 15px;
+}
+.news .container .newsDetails .right > ul > li > div > a {
+  height: 30px;
+  display: block;
+  text-decoration: none;
+  font-family: "MicrosoftYaHei";
+  font-size: 18px;
+  color: #252728;
+  margin-bottom: 25px;
+  margin-top: 39px;
+}
+.news .container .newsDetails .right > ul > li > div > a:hover .articleTitle {
+  color: #51b2f1;
+}
+.news .container .newsDetails .right > ul > li > div > a .date {
+  float: right;
+}
+.news .container .newsDetails .right > ul > li > div > a:hover > span {
+  color: black;
+}
+.news .container .newsDetails .right > ul > li > p {
+  width: 358px;
+  color: #60656a;
+  position: relative;
+  margin-bottom: 41px;
+}
+.news .container .newsDetails .right > ul > li > p > span {
+  position: absolute;
+  right: -130px;
+}
+.news .container .newsDetails .right > ul > li > p > span a {
+  text-decoration: none;
+}
+.news .container .newsDetails .right > ul > li > p > span i {
+  float: right;
+  color: #a3a3a3;
+}
+@media screen and (max-width: 992px) {
+  .news .container .newsButton {
+    font-size: 13px;
+  }
+  .news .container .newsDetails .left .thumbnail-wrapper .thumbnail {
+    width: 260px;
+    border: none;
+  }
+  .news .container .newsDetails .right {
+    padding-left: 0;
+  }
+}
+/*# sourceMappingURL=home.css.map */

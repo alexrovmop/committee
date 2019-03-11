@@ -1,0 +1,471 @@
+.title {
+    font-size: 36px;
+    text-align: center;
+    font-weight: normal;
+    margin: 54px 0 37px 0;
+}
+
+/*轮播图*/
+.transform {
+    transform: rotateY(180deg);
+    margin-right: 20px;
+    color: white;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.banner {
+    .carousel {
+        .carousel-inner {
+            .item {
+                .bannerMsg {
+                    width: 587px;
+                    height: 277px;
+                    background: rgb(81, 178, 241);
+                    padding: 54px 0 37px 35px;
+                    position: absolute;
+                    top: 20%;
+                    left: 10%;
+
+                    h1 {
+                        font-size: 48px;
+                        color: white;
+                        margin: 0 0 23px 0;
+                    }
+
+                    p {
+                        color: white;
+                        font-size: 18px;
+                        margin-bottom: 48px;
+                    }
+
+                    &>a {
+                        display: block;
+                        width: 168px;
+                        height: 48px;
+                        border: 3px solid white;
+                        text-decoration: none;
+
+                        &>span {
+                            color: white;
+                            line-height: 40px;
+                            margin-left: 10px;
+                        }
+
+                        .transform {
+                            float: right;
+                        }
+
+                    }
+                }
+
+                .bannerPic {
+                    width: 100%;
+                    height: 720px;
+                    background: center center no-repeat;
+                    background-size: 100% auto;
+                }
+            }
+        }
+
+        .carousel-indicators {
+            li {
+                width: 70px;
+                height: 10px;
+            }
+        }
+    }
+}
+
+/*重点项目*/
+.emphasisProject {
+    .project {
+        text-decoration: none;
+
+        &:hover {
+            >div>div {
+                opacity: 0.6;
+            }
+
+            p {
+                background: rgb(81, 178, 241);
+                color: white;
+            }
+        }
+
+        >div {
+            position: relative;
+
+            >img {
+                width: 100%;
+            }
+
+            .blue {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                background: #54779d;
+                opacity: 0;
+                transition: opacity 1s;
+
+                >div {
+                    margin: 100px auto;
+                    width: 158px;
+                    height: 48px;
+                    border: 3px solid white;
+                    text-align: center;
+
+                    .transform {
+                        float: right;
+                        margin-right: 64px;
+                        margin-top: 3px;
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+
+        p { 
+            white-space:nowrap;
+            text-overflow:ellipsis;
+            overflow:hidden;
+            color: black;
+            font-size: 18px;
+            text-indent: 20px;
+            line-height: 30px;
+            padding-top: 31px;
+            padding-bottom: 31px;
+            border-bottom: 2px solid rgb(177, 177, 177);
+        }
+    }
+}
+
+/*关于专家委员会*/
+.aboutSpecialist {
+    .container {}
+}
+
+.SpecialistBox .top .left,
+.SpecialistBox .top .right,
+.SpecialistBox .top .center {
+    height: 220px;
+    padding: 0;
+}
+
+.SpecialistBox .top .left img,
+.SpecialistBox .top .right img {
+    width: 100%;
+    height: 100%;
+}
+
+.SpecialistBox {
+    .top {
+        .center {
+            background: rgb(81, 178, 241);
+            color: white;
+            text-align: center;
+
+            &:hover {
+                background: rgb(33, 159, 243);
+            }
+
+            a {
+                display: block;
+                text-decoration: none;
+                margin-top: 75px;
+                font-size: 30px;
+                color: white;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .bottom {
+        .center {
+            a {
+                display: block;
+                text-decoration: none;
+                text-align: center;
+                line-height: 38px;
+                margin-top: 92px;
+                color: rgb(81, 178, 241);
+            }
+
+            &>.boxA {
+                width: 128px;
+                height: 45px;
+                border: 3px solid rgb(81, 178, 241);
+                margin: 0 auto;
+
+                i {
+                    color: rgb(81, 178, 241);
+                    float: right;
+                    font-size: 24px;
+                    margin: 4px 48px;
+                }
+            }
+        }
+    }
+}
+
+.SpecialistBox .bottom .left,
+.SpecialistBox .bottom .right,
+.SpecialistBox .bottom .center {
+    height: 220px;
+    padding: 0;
+}
+
+.SpecialistBox .bottom .left,
+.SpecialistBox .bottom .right {
+    background: rgb(60, 220, 214);
+    color: white;
+    text-align: left;
+    padding-top: 53px;
+    padding-left: 30px;
+
+    p {
+        text-align: left;
+    }
+
+    &:hover {
+        background: rgb(16, 202, 196);
+    }
+}
+
+.SpecialistBox .bottom .left a,
+.SpecialistBox .bottom .right a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    margin-top: 53px;
+    font-size: 30px;
+
+    .transform {
+        float: right;
+        font-size: 24px;
+    }
+
+}
+
+.SpecialistBox .bottom .left a>img,
+.SpecialistBox .bottom .right a>img {
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+/*新闻动态*/
+.news {
+    margin-bottom: 81px;
+
+    .container {
+
+        .newsButton {
+            display: flex;
+            justify-content: center;
+            border: none;
+            font-size: 16px;
+
+            .active {
+                border-color: rgb(81, 178, 241);
+
+                >a {
+                    color: rgb(81, 178, 241);
+                }
+            }
+
+            &>li {
+                width: 138px;
+                height: 48px;
+                border: 3px solid rgba(124, 128, 131, 0.4);
+                margin-right: 15px;
+                margin-left: 15px;
+                text-align: center;
+
+                &:hover {
+                    border-color: rgb(81, 178, 241);
+
+                    background: white;
+
+                }
+
+                >a {
+                    &:hover {
+                        background: white;
+                        color: rgb(81, 178, 241);
+                    }
+
+                    border: none;
+                    color: black;
+
+                }
+
+            }
+        }
+
+        .newsDetails {
+            position: relative;
+
+            .more {
+                position: absolute;
+                right: 0;
+                bottom: -18px;
+                text-decoration: none;
+            }
+
+            .left {
+                &>h3 {
+                    font-family: 'CenturyGothic';
+                    font-size: 30px;
+                    margin-bottom: 30px;
+                    text-indent: 20px;
+                }
+
+                .arrow {
+                    text-decoration: none;
+
+                    i {
+                        color: #a3a3a3;
+                        float: left;
+                    }
+                }
+                .thumbnail-wrapper{
+                    .thumbnail{
+                        width: 400px;
+                        border: none;
+                    }
+                }
+                &>a>img {
+                    margin-bottom: 43px;
+                }
+
+                .newsTitle {
+                    text-decoration: none;
+                    display: block;
+                    color: black;
+                    margin-top: 23px;
+                    font-family: "MicrosoftYaHei";
+                    font-size: 18px;
+                    margin-bottom: 34px;
+                }
+
+                p {
+                    color: rgb(96, 101, 106);
+                    font-size: 16px;
+                    text-align: left;
+                }
+            }
+
+            .right {
+
+                padding-left: 80px;
+                flex: 1;
+
+                &>ul {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+
+                    &>li {
+                        // list-style: disc;
+
+                        position: relative;
+                        padding-left: 15px;
+                        border-bottom: 1px solid rgba(212, 212, 212, 0.6);
+
+                        &::before {
+                            position: absolute;
+                            content: "";
+                            display: block;
+                            height: 3px;
+                            width: 3px;
+                            background: #666;
+                            left: 4px;
+                            top: 48px;
+                        }
+
+                        &>p {
+                            margin-left: 15px;
+                        }
+
+                        &>div {
+
+
+                            &>a {
+                                height: 30px;
+                                display: block;
+                                text-decoration: none;
+                                font-family: "MicrosoftYaHei";
+                                font-size: 18px;
+                                color: rgb(37, 39, 40);
+                                margin-bottom: 25px;
+                                margin-top: 39px;
+
+                                &:hover .articleTitle {
+                                    color: rgb(81, 178, 241);
+                                }
+                                .date{
+                                    float: right;
+                                }
+                                &:hover {
+
+                                    &>span {
+                                        color: black;
+                                    }
+                                }
+                            }
+                        }
+
+                        &>p {
+                            width: 358px;
+                            color: rgb(96, 101, 106);
+                            position: relative;
+                            margin-bottom: 41px;
+
+                            &>span {
+                                position: absolute;
+                                right: -130px;
+
+                                a {
+                                    text-decoration: none;
+                                }
+
+                                i {
+                                    float: right;
+                                    color: #a3a3a3;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 992px) {
+    .news{
+        .container {
+        .newsButton{
+            font-size: 13px;;
+        }
+        .newsDetails{
+            .left{
+                .thumbnail-wrapper{
+                    .thumbnail{
+                        width: 260px;
+                        border: none;
+                    }
+                }
+            }
+            .right{
+                padding-left: 0;
+            }
+        }
+    }
+  }
+}

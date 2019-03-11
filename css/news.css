@@ -1,0 +1,174 @@
+.container .content .content-menus .current-cat {
+  background: #51b2f1;
+}
+.container .content .content-menus .current-cat a {
+  color: white;
+}
+.content {
+  padding-top: 30px;
+}
+.content .content-menus ul li {
+  height: 60px;
+  background-color: white;
+  font-size: 16px;
+  line-height: 60px;
+  text-align: center;
+  color: black;
+}
+.content .content-menus ul li:hover {
+  background: #51b2f1;
+  color: white;
+}
+.content .contetn-exhibition {
+  background: white;
+}
+.content .contetn-exhibition .contetn-exhibition-header {
+  height: 57px;
+  border-bottom: 1px solid #d7d7d7;
+  color: #a4a5a7;
+  display: flex;
+  line-height: 57px;
+  justify-content: flex-end;
+}
+.content .contetn-exhibition .contetn-exhibition-content {
+  border-bottom: 1px solid #d7d7d7;
+}
+.content .contetn-exhibition .contetn-exhibition-content .contentTitle {
+  border-bottom: 1px solid #d7d7d7;
+}
+.content .contetn-exhibition .contetn-exhibition-content .contentTitle h1 {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 36px;
+}
+.content .contetn-exhibition .contetn-exhibition-content .contentTitle p {
+  line-height: 35px;
+  text-align: center;
+  margin-top: 29px;
+  margin-bottom: 42px;
+}
+.content .contetn-exhibition .contetn-exhibition-content .contentTitle p .share .datasetconfig {
+  position: relative;
+  top: 10px;
+}
+.content .contetn-exhibition .contetn-exhibition-content .contentText {
+  padding-top: 37px;
+  padding-bottom: 46px;
+}
+.content .contetn-exhibition .contetn-exhibition-content .contentText p {
+  text-align: left;
+  margin: 0 25px;
+  line-height: 36px;
+}
+.content .contetn-exhibition .contetn-exhibition-content .contentText .newsPic {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.content .contetn-exhibition .contetn-exhibition-footer {
+  height: 136px;
+  color: black;
+}
+.content .contetn-exhibition .contetn-exhibition-footer:hover {
+  color: #50b2f1;
+}
+.content .contetn-exhibition .contetn-exhibition-footer p {
+  color: black;
+  text-decoration: none;
+  line-height: 136px;
+}
+.content .contetn-exhibition .contetn-exhibition-footer p a {
+  text-decoration: none;
+  color: black;
+}
+.content .contetn-exhibition .contetn-exhibition-footer p a:hover {
+  color: #50b2f1;
+}
+.content .contetn-exhibition .contetn-exhibition-footer .last {
+  float: left;
+  margin-left: 25px;
+}
+.content .contetn-exhibition .contetn-exhibition-footer .next {
+  float: right;
+  margin-right: 25px;
+}
+.content .contetn-exhibition .newsList .pagination {
+  display: block;
+  line-height: 35px;
+  color: #a4a5a7;
+}
+.content .contetn-exhibition .newsList .pagination .screen-reader-text {
+  display: none;
+}
+.content .contetn-exhibition .newsList .pagination .nav-links {
+  text-align: center;
+}
+.content .contetn-exhibition .newsList .pagination .nav-links .next {
+  width: 60px;
+  float: right;
+}
+.content .contetn-exhibition .newsList .pagination .nav-links .prev {
+  width: 60px;
+  float: left;
+}
+.content .contetn-exhibition .newsList .pagination .nav-links a,
+.content .contetn-exhibition .newsList .pagination .nav-links span {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #a4a5a7;
+  text-decoration: none;
+  display: inline-block;
+  color: #a4a5a7;
+}
+.content .contetn-exhibition .newsList .pagination .nav-links a:hover,
+.content .contetn-exhibition .newsList .pagination .nav-links span:hover {
+  background: #50b2f1;
+  color: white;
+}
+.content .contetn-exhibition .newsList .pagination .nav-links .current {
+  background: #50b2f1;
+  color: white;
+}
+.content .contetn-exhibition .newsList .list .listOne {
+  padding: 30px 20px;
+  border-bottom: 1px solid #f3f3f3;
+}
+.content .contetn-exhibition .newsList .list .listOne:hover {
+  background: #50b2f1;
+}
+.content .contetn-exhibition .newsList .list .listOne:hover p {
+  color: white;
+}
+.content .contetn-exhibition .newsList .list .listOne:hover a {
+  color: white;
+}
+.content .contetn-exhibition .newsList .list .listOne a {
+  color: black;
+}
+.content .contetn-exhibition .newsList .list .listOne a h2,
+.content .contetn-exhibition .newsList .list .listOne a h3 {
+  margin-top: 0;
+  font-weight: normal;
+}
+.content .contetn-exhibition .newsList .list .listOne a h2 {
+  font-size: 36px;
+}
+.content .contetn-exhibition .newsList .list .listOne a p {
+  line-height: 24px;
+  height: 48px;
+}
+.content .contetn-exhibition .newsList .list .listOne .left {
+  margin-top: 12px;
+  border-right: 1px solid #d9d9d9;
+}
+@media screen and (max-width: 992px) {
+  .content .contetn-exhibition .newsList .list .listOne .left {
+    border: none;
+  }
+  .content .contetn-exhibition .newsList .list .listOne .right {
+    text-align: center;
+  }
+}
+.contentC {
+  background: #d7d7d7;
+}
+/*# sourceMappingURL=news.css.map */

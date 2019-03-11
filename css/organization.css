@@ -1,0 +1,118 @@
+.content .contetn-exhibition .contetn-exhibition-referral {
+  padding-top: 35px;
+  padding-left: 25px;
+  border-bottom: 1px solid #f2f4f6;
+  padding-bottom: 50px;
+}
+.content .contetn-exhibition .contetn-exhibition-referral .referral h2 {
+  font-size: 36px;
+  color: #51b2f1;
+  font-family: "FZLTZHK--GBK1-0";
+}
+.content .contetn-exhibition .contetn-exhibition-referral .referral .blue {
+  background: #edf7fe;
+  color: #82c4f4;
+  border-radius: 10px;
+  padding: 25px 15px 15px 15px;
+  line-height: 25px;
+}
+.content .contetn-exhibition .contetn-exhibition-referral .referral .black {
+  line-height: 36px;
+}
+.content .contetn-exhibition .contetn-exhibition-details {
+  border-top: 1px solid #f2f4f6;
+  padding: 56px 0 200px 25px;
+}
+.content .contetn-exhibition .contetn-exhibition-details p {
+  font-size: 14px;
+  line-height: 36px;
+}
+.content .contetn-exhibition .relation {
+  border-top: 1px solid #f2f4f6;
+}
+.content .contetn-exhibition .relation h2 {
+  font-weight: normal;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.content .contetn-exhibition .relation > p {
+  text-align: right;
+  border-bottom: 1px solid #f2f4f6;
+}
+.content .contetn-exhibition .relation .relationWay {
+  text-align: left;
+}
+.content .contetn-exhibition .relation .relationWay h3 i {
+  color: #51b2f1;
+}
+.content .contetn-exhibition .relation .relationWay p {
+  text-indent: 30px;
+  color: #a4a5a7;
+}
+.content .contetn-exhibition .memberList {
+  margin-bottom: 40px;
+}
+.content .contetn-exhibition .memberList .pullMenu {
+  margin-bottom: 50px;
+}
+.content .contetn-exhibition .memberList .group {
+  border-radius: 0;
+  border: 2px solid #a4a5a7;
+}
+.content .contetn-exhibition .memberList .group:hover {
+  border-color: #88deff;
+  background: none;
+  color: #88deff;
+}
+.content .contetn-exhibition .memberList .list {
+  width: 100%;
+  padding-top: 40px;
+  border-top: 1px solid #d6d5d5;
+  border-bottom: 1px solid #d6d5d5;
+}
+.content .contetn-exhibition .memberList .list .pic .headerImg {
+  position: relative;
+}
+.content .contetn-exhibition .memberList .list .pic .headerImg .blueMask {
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.content .contetn-exhibition .memberList .list .pic .headerImg .blueMask i {
+  color: rgba(255, 255, 255, 0);
+  font-size: 40px;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+.content .contetn-exhibition .memberList .list .pic .headerImg img {
+  width: 100%;
+}
+.content .contetn-exhibition .memberList .list .pic a {
+  color: black;
+  text-decoration: none;
+}
+.content .contetn-exhibition .memberList .list .pic .last {
+  padding-bottom: 20px;
+  border-bottom: 5px solid transparent;
+}
+.content .contetn-exhibition .memberList .list .pic:hover .last {
+  border-color: #4eb1ec;
+}
+.content .contetn-exhibition .memberList .list .pic:hover .blueMask {
+  background: #649ec4;
+  opacity: 0.4;
+}
+.content .contetn-exhibition .memberList .list .pic:hover .blueMask i {
+  color: white;
+}
+#memberDetails {
+  display: none;
+}
+#relation {
+  display: none;
+}
