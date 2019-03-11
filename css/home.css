@@ -109,6 +109,9 @@
   border-bottom: 2px solid #b1b1b1;
 }
 /*关于专家委员会*/
+.aboutSpecialist .container .SpecialistBox .bottom .center {
+  padding-top: 63px;
+}
 .SpecialistBox .top .left,
 .SpecialistBox .top .right,
 .SpecialistBox .top .center {
@@ -124,6 +127,7 @@
   background: #51b2f1;
   color: white;
   text-align: center;
+  padding-top: 75px;
 }
 .SpecialistBox .top .center:hover {
   background: #219ff3;
@@ -131,7 +135,6 @@
 .SpecialistBox .top .center a {
   display: block;
   text-decoration: none;
-  margin-top: 75px;
   font-size: 30px;
   color: white;
 }
@@ -143,7 +146,6 @@
   text-decoration: none;
   text-align: center;
   line-height: 38px;
-  margin-top: 92px;
   color: #51b2f1;
 }
 .SpecialistBox .bottom .center > .boxA {

@@ -3,29 +3,34 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    font-family: PingFangSC-Regular,'Microsoft Yahei';
+    font-family: PingFangSC-Regular, 'Microsoft Yahei';
 }
 
 .header {
+
     // height: 140px;
-    .navbar-default{
+    .navbar-default {
         border: none;
         background: none;
     }
-    .navpadding{
+
+    .navpadding {
         padding-top: 18px;
-        .navbar-collapse{
-            .navbar-nav{
-                a{
+
+        .navbar-collapse {
+            .navbar-nav {
+                a {
                     background: none;
                 }
-                .active{
+
+                .active {
                     border-bottom: 5px solid #51b2f1;
                     background: none;
                 }
             }
         }
     }
+
     .navbar-brand .logo {
         height: 100%;
         width: auto;
@@ -33,6 +38,7 @@
         margin-right: 20px;
         float: left;
     }
+
     .navbar-brand {
         height: 100%;
     }
@@ -74,18 +80,21 @@
     .footer-top {
         .footer-nav {
             >ul {
-                a{
+                a {
                     text-decoration: none;
                     color: white;
                     font-size: 12px;
                 }
+
                 display: flex;
                 justify-content: space-around;
+
                 >li {
-                   >a{
-                       font-size: 16px;
-                       margin-bottom: 10px;
-                   }
+                    >a {
+                        font-size: 16px;
+                        margin-bottom: 10px;
+                    }
+
                     margin-bottom: 20px;
                 }
             }
@@ -130,26 +139,25 @@
         }
     }
 }
-@media screen and (max-width: 992px) {
-    .footer{
-        .footer-top{
-            .relation{
-                text-align: center;
-            }
-        }
-    }
-}
+
 /*通用样式*/
 .contentC {
     background: #f2f4f6;
     padding-top: 30px;
-    .container{
-        .row{
+
+    .container {
+        .row {
             margin: 0;
         }
     }
+
     .content {
+        .contetn-exhibition {
+            min-height: 490px;
+        }
+
         .content-menus {
+
             &>ul {
                 &>li {
                     height: 60px;
@@ -180,25 +188,29 @@
 .content {
     .contetn-exhibition {
         background: white;
-        
+
         .workDetails {
-            border-top:1px solid #f2f4f6;
-            border-bottom:1px solid #f2f4f6;
+            border-top: 1px solid #f2f4f6;
+            border-bottom: 1px solid #f2f4f6;
+
             .list {
                 li {
                     padding: 20px 15px;
-                    a{
+
+                    a {
                         color: rgb(46, 46, 46);
                         text-decoration: none;
                         font-size: 18px;
                     }
-                    span{
-                        float:right;
+
+                    span {
+                        float: right;
                         font-size: 18px;
                     }
                 }
             }
         }
+
         .contetn-exhibition-header {
             height: 57px;
             color: #a4a5a7;
@@ -214,17 +226,20 @@
                 }
             }
         }
+
         .pageTurning {
             .pager {
-               
+
                 li {
-                    .bgButton{
+                    .bgButton {
                         padding-left: 40px;
                         padding-right: 40px;
                     }
-                    .nextButton{ 
-                        transform:rotateY(180deg);
+
+                    .nextButton {
+                        transform: rotateY(180deg);
                     }
+
                     a {
                         border-radius: 0;
                         border: 2px solid #e8e8e8;
@@ -232,6 +247,33 @@
                         &:hover {
                             background: #5abdf8;
                             color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*媒体查询*/
+@media screen and (max-width: 992px) {
+    .footer {
+        .footer-top {
+            .relation {
+                text-align: center;
+            }
+        }
+    }
+
+    .header {
+        .container {
+            .navbar {
+                .container-fluid {
+                    .navbar-header {
+                        .navbar-brand {
+                            h1 {
+                                display: none;
+                            }
                         }
                     }
                 }

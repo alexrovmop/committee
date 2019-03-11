@@ -90,7 +90,7 @@ get_header(); ?>
                     <p>对我国细菌耐药和抗菌药物应用的相关性进行研究，提出政策建议…</p>
                 </div>
                 <div class="center col-md-3">
-                    <a href="">查看更多成员</a>
+                    <a  href="">查看更多成员</a>
                     <a class="boxA" href="http://kangnaiyao.mpf.org.cn/category/organization/committmenber/"><i class="iconfont icon-jiantou_qiehuanzuo_o transform"></i></a>
                 </div>
                 <div class="right col-md-3">

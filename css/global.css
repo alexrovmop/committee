@@ -98,11 +98,6 @@
 .footer .footer-bottom .share {
   margin-bottom: 20px;
 }
-@media screen and (max-width: 992px) {
-  .footer .footer-top .relation {
-    text-align: center;
-  }
-}
 /*通用样式*/
 .contentC {
   background: #f2f4f6;
@@ -110,6 +105,9 @@
 }
 .contentC .container .row {
   margin: 0;
+}
+.contentC .content .contetn-exhibition {
+  min-height: 490px;
 }
 .contentC .content .content-menus > ul > li {
   height: 60px;
@@ -172,5 +170,14 @@
 .content .contetn-exhibition .pageTurning .pager li a:hover {
   background: #5abdf8;
   color: white;
+}
+/*媒体查询*/
+@media screen and (max-width: 992px) {
+  .footer .footer-top .relation {
+    text-align: center;
+  }
+  .header .container .navbar .container-fluid .navbar-header .navbar-brand h1 {
+    display: none;
+  }
 }
 /*# sourceMappingURL=global.css.map */
