@@ -102,14 +102,25 @@ hr {
   font-weight: bold;
   font-size: 20px;
 }
+.banner .carousel .carousel-inner .item {
+  height: 720px;
+  background: center center no-repeat;
+  background-size: 100% auto;
+}
+.banner .carousel .carousel-inner .item > .container {
+  height: 720px;
+  position: relative;
+}
 .banner .carousel .carousel-inner .item .bannerMsg {
-  width: 587px;
-  height: 277px;
-  background: #51b2f1;
-  padding: 54px 0 37px 35px;
   position: absolute;
-  top: 20%;
-  left: 10%;
+  top: 50%;
+  left: 0;
+  margin-top: -135px;
+  width: 580px;
+  height: 270px;
+  overflow: hidden;
+  background: #51b2f1;
+  padding: 54px 35px 30px;
 }
 .banner .carousel .carousel-inner .item .bannerMsg h1 {
   font-size: 48px;
@@ -135,12 +146,6 @@ hr {
 }
 .banner .carousel .carousel-inner .item .bannerMsg > a .transform {
   float: right;
-}
-.banner .carousel .carousel-inner .item .bannerPic {
-  width: 100%;
-  height: 720px;
-  background: center center no-repeat;
-  background-size: 100% auto;
 }
 .banner .carousel .carousel-indicators li {
   width: 70px;

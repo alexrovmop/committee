@@ -14,29 +14,26 @@ get_header(); ?>
             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
         </ol>
         <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <div class="bannerMsg">
-                    <h1>加强 临床应用</h1>
-                    <p>加强抗菌药物临床应用与细菌耐药综合评价，遏制细菌耐药</p>
-                    <!-- <a href="http://kangnaiyao.mpf.org.cn/category/industrynews/"> <span>查看详情</span>
-                        <i class="iconfont icon-jiantou_qiehuanzuo_o transform"></i>
-                    </a> -->
-                </div>
-                <div class="bannerPic" style="background-image: url('<?php bloginfo('template_url'); ?>/img/banner.jpg')"></div>
-
-                <div class="carousel-caption">
+            <div class="item active" style="background-image: url('<?php bloginfo('template_url'); ?>/img/banner.jpg')">
+                <div class="container">
+                    <div class="bannerMsg">
+                        <h1>加强 临床应用</h1>
+                        <p>加强抗菌药物临床应用与细菌耐药综合评价，遏制细菌耐药</p>
+                        <!-- <a href="http://kangnaiyao.mpf.org.cn/category/industrynews/"> <span>查看详情</span>
+                            <i class="iconfont icon-jiantou_qiehuanzuo_o transform"></i>
+                        </a> -->
+                    </div>
                 </div>
             </div>
-            <div class="item">
-                <div class="bannerMsg">
-                    <h1>加强 临床应用</h1>
-                    <p>加强抗菌药物临床应用与细菌耐药综合评价，遏制细菌耐药</p>
-                    <!-- <a href="http://kangnaiyao.mpf.org.cn/category/industrynews/"> <span>查看详情</span>
-                        <i class="iconfont icon-jiantou_qiehuanzuo_o transform"></i>
-                    </a> -->
-                </div>
-                <div class="bannerPic" style="background-image: url('<?php bloginfo('template_url'); ?>/img/banner.jpg')"></div>
-                <div class="carousel-caption">
+            <div class="item" style="background-image: url('<?php bloginfo('template_url'); ?>/img/banner.jpg')">
+                <div class="container">
+                    <div class="bannerMsg">
+                        <h1>加强 临床应用</h1>
+                        <p>加强抗菌药物临床应用与细菌耐药综合评价，遏制细菌耐药</p>
+                        <!-- <a href="http://kangnaiyao.mpf.org.cn/category/industrynews/"> <span>查看详情</span>
+                            <i class="iconfont icon-jiantou_qiehuanzuo_o transform"></i>
+                        </a> -->
+                    </div>
                 </div>
             </div>
         </div>
