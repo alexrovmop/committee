@@ -1,3 +1,5 @@
+@import "_base.less";
+
 /*导航栏*/
 * {
     list-style: none;
@@ -7,36 +9,31 @@
 }
 
 .header {
-    // height: 140px;
+    height: 140px;
     .navbar-default{
         border: none;
         background: none;
     }
     .navpadding{
-        padding-top: 18px;
+        margin-bottom: 0; height: 140px;
         .navbar-collapse{
             .navbar-nav{
                 a{
                     background: none;
                 }
-                .active{
-                    border-bottom: 5px solid #51b2f1;
-                    background: none;
-                }
             }
         }
     }
-    .navbar-brand .logo {
-        height: 100%;
-        width: auto;
-        vertical-align: middle;
-        margin-right: 20px;
-        float: left;
-    }
     .navbar-brand {
-        height: 100%;
+        padding-top: 30px; display: block; height: auto;
+        .logo {
+            height: 80px;
+            width: auto;
+            vertical-align: middle;
+            margin-right: 15px;
+            float: left;
+        }
     }
-
     h1 {
         font-weight: normal;
         font-size: 20px;
@@ -48,16 +45,23 @@
     }
 
     .nav-title {
-        // height: 140px;
-
-        li {
-            a {
+        margin-top: 30px;
+        & > li {
+            margin: 0 2px;
+            & > a {
                 font-size: 18px;
-                line-height: 60px;
+                line-height: 20px;
                 color: rgb(48, 48, 48);
-
+                padding-top: 25px;
+                padding-bottom: 25px;
                 &:hover {
-                    border-bottom: 5px solid #51b2f1;
+                    border-bottom: 5px solid @theme-l;
+                    background: none;
+                }
+            }
+            &.active{
+                & > a {
+                    border-bottom: 5px solid @theme;
                     background: none;
                 }
             }

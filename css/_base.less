@@ -1,0 +1,83 @@
+@theme: #51b2f1;
+@theme-l: lighten(@theme, 10%);
+@green: #3cdcd6;
+@dark: #131d27;
+
+/* 最大显示一行，溢出省略号 */
+.txt-line-one { overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+/* 最大显示两行，溢出省略号 */
+.txt-line-two { overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; word-break: break-word; }
+
+.clearfix {
+    &::after {
+      content: " "; display: block; height: 0; overflow: hidden; clear: both;
+    }
+  }
+  hr {
+    margin: 10px 0 15px; border: 0; border-top: 1px solid #eee;
+  }
+  ._setArrow(@arrowsize, @borderColor, @borderWidth){
+    display: inline-block;
+    height: @arrowsize;
+    width: @arrowsize;
+    border-width: @borderWidth @borderWidth 0 0;
+    border-color: @borderColor;
+    border-style: solid;
+}
+.setArrow(@direction, @arrowsize, @borderColor, @borderWidth) when (@direction = top) {
+    ._setArrow(@arrowsize, @borderColor, @borderWidth);
+    transform: matrix(0.71,-0.71,0.71,0.71,0,0); // rotate(-45deg)
+}
+.setArrow(@direction, @arrowsize, @borderColor,@borderWidth) when (@direction = right) {
+    ._setArrow(@arrowsize, @borderColor, @borderWidth);
+    transform: matrix(0.71,0.71,-0.71,0.71,0,0); // rotate(45deg);
+
+    position: relative;
+    top: -2px;
+}
+.setArrow(@direction, @arrowsize, @borderColor,@borderWidth) when (@direction = down) {
+    ._setArrow(@arrowsize, @borderColor, @borderWidth);
+    transform: matrix(-0.71,0.71,-0.71,-0.71,0,0); // rotate(135deg);
+
+    position: relative;
+    top: -3px;
+}
+.setArrow(@direction, @arrowsize, @borderColor,@borderWidth) when (@direction = left) {
+    ._setArrow(@arrowsize, @borderColor, @borderWidth);
+    transform: matrix(-0.71,-0.71,0.71,-0.71,0,0); // rotate(-135deg);
+
+    position: relative;
+    top: -2px;
+}
+.arrow-t {
+    content: " ";
+    .setArrow(top, 6px, #C8C8CD, 2px);
+    position: absolute;
+    top: 50%;
+    margin-top: -4px;
+    right: 2px;
+}
+.arrow-b {
+    content: " ";
+    .setArrow(down, 6px, #C8C8CD, 2px);
+    position: absolute;
+    top: 50%;
+    margin-top: -4px;
+    right: 2px;
+}
+.arrow-l {
+    content: " ";
+    .setArrow(left, 6px, #C8C8CD, 2px);
+    position: absolute;
+    top: 50%;
+    margin-top: -4px;
+    right: 2px;
+}
+.arrow-r {
+    content: " ";
+    .setArrow(right, 6px, #C8C8CD, 2px);
+    position: absolute;
+    top: 50%;
+    margin-top: -4px;
+    right: 2px;
+}

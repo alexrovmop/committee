@@ -1,3 +1,5 @@
+@import "_base.less";
+
 .title {
     font-size: 36px;
     text-align: center;
@@ -22,7 +24,7 @@
                 .bannerMsg {
                     width: 587px;
                     height: 277px;
-                    background: rgb(81, 178, 241);
+                    background: @theme;
                     padding: 54px 0 37px 35px;
                     position: absolute;
                     top: 20%;
@@ -89,7 +91,7 @@
             }
 
             p {
-                background: rgb(81, 178, 241);
+                background: @theme;
                 color: white;
             }
         }
@@ -163,7 +165,7 @@
 .SpecialistBox {
     .top {
         .center {
-            background: rgb(81, 178, 241);
+            background: @theme;
             color: white;
             text-align: center;
 
@@ -193,17 +195,17 @@
                 text-align: center;
                 line-height: 38px;
                 margin-top: 92px;
-                color: rgb(81, 178, 241);
+                color: @theme;
             }
 
             &>.boxA {
                 width: 128px;
                 height: 45px;
-                border: 3px solid rgb(81, 178, 241);
+                border: 3px solid @theme;
                 margin: 0 auto;
 
                 i {
-                    color: rgb(81, 178, 241);
+                    color: @theme;
                     float: right;
                     font-size: 24px;
                     margin: 4px 48px;
@@ -272,10 +274,10 @@
             font-size: 16px;
 
             .active {
-                border-color: rgb(81, 178, 241);
+                border-color: @theme;
 
                 >a {
-                    color: rgb(81, 178, 241);
+                    color: @theme;
                 }
             }
 
@@ -288,7 +290,7 @@
                 text-align: center;
 
                 &:hover {
-                    border-color: rgb(81, 178, 241);
+                    border-color: @theme;
 
                     background: white;
 
@@ -297,7 +299,7 @@
                 >a {
                     &:hover {
                         background: white;
-                        color: rgb(81, 178, 241);
+                        color: @theme;
                     }
 
                     border: none;
@@ -407,7 +409,7 @@
                                 margin-top: 39px;
 
                                 &:hover .articleTitle {
-                                    color: rgb(81, 178, 241);
+                                    color: @theme;
                                 }
                                 .date{
                                     float: right;

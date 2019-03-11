@@ -87,23 +87,3 @@ hr {
   margin-top: -4px;
   right: 2px;
 }
-.contetn-exhibition .project {
-  padding-bottom: 100px;
-}
-.contetn-exhibition .project > p {
-  line-height: 24px;
-  padding: 10px 30px;
-}
-.contetn-exhibition .project-tab {
-  border: none;
-  margin-top: 30px;
-}
-.contetn-exhibition .project-tab .active {
-  border: none;
-}
-.contetn-exhibition .project-tab .tabs > a {
-  margin-right: 15px;
-  border: 1px solid black;
-  border-radius: 4px;
-  color: black;
-}
