@@ -21,11 +21,8 @@
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/global.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/home.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/news.css">
-<<<<<<< HEAD
-    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/media.css">
-=======
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/organization.css">
->>>>>>> 7d4978a8c0d34a960575d85a197f9f41c1f2f7fb
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/media.css">
 </head>
 
 <body>
