@@ -11,7 +11,6 @@ get_header(); ?>
         <div class="content row">
             <div class="content-menus col-md-2">
                 <ul>
-
                     <?php 
                     global $wp_query;
                     $cat_ID = get_query_var('cat');
@@ -29,11 +28,30 @@ get_header(); ?>
                 </ul>
             </div>
             <div id="member" class="contetn-exhibition col-md-10">
-           
                 <div class="contetn-exhibition-header">
                     <ol class="breadcrumb">
-                        <li> <i class="glyphicon glyphicon-map-marker"></i> 您当前的位置</li>
-                        <li><?php single_cat_title(); ?></li>
+                        <li> <i class="glyphicon glyphicon-map-marker"></i>您当前的位置</li>
+                        <li><a href="http://wordpress.local">首页</a></li>
+                            <?php 
+                            $categories = get_the_category();
+                            echo '<li>';
+                            foreach( $categories as $category ){
+                                 if($category->parent != 0){
+                                      $parent_category = get_term( $category->parent );
+                                      echo '<a class="blue" href="' . esc_url( get_category_link($parent_category->term_id)) . '">' . esc_html($parent_category->name) . ' </a>';
+                                      break;
+                                 }
+                            }
+                            echo '</li>';
+                            ?>
+                            <!-- <?php 
+                            echo '<li> ';
+                            foreach( $categories as $category ){
+                                 if($category->parent != 0){
+                                      echo '<a href="' . esc_url( get_category_link($category->term_id)) . '">' . esc_html($category->name) . ' </a>';
+                                 }
+                            }
+                            ?> -->
                     </ol>
                 </div>
                 <div class="newsList">
@@ -45,11 +63,7 @@ get_header(); ?>
 
                         <?php
 
-                        /*
-* Include the Post-Format-specific template for the content.
-* If you want to override this in a child theme, then include a file
-* called content-___.php (where ___ is the Post Format name) and that will be used instead.
-*/
+
                         get_template_part('template-parts/content', 'summary');
                         ?>
 
@@ -64,20 +78,6 @@ get_header(); ?>
                         <?php endif; ?>
                     </ul>
                 </div>
-                <!-- <div class="pageTurning"> -->
-                <!-- <nav aria-label="...">
-                                <ul class="pager">
-                                    <li class="previous"><a class="bgButton" href="#"><span aria-hidden="true" class="iconfont icon-jiantou_qiehuanzuo_o"></span>
-                                        </a></li>
-                                    <li><a href="#">1</a></li>
-                                    <li><a href="#">2</a></li>
-                                    <li><a href="#">3</a></li>
-                                    <li><a href="#">4</a></li>
-                                    <li><a href="#">5</a></li>
-                                    <li class="next"><a class="bgButton nextButton" href="#"> <span aria-hidden="true" class="iconfont icon-jiantou_qiehuanzuo_o"></span></a></li>
-                                </ul>
-							</nav> -->
-
             </div>
         </div>
     </div>
