@@ -212,6 +212,39 @@ hr {
 .contentC .content .contetn-exhibition {
   min-height: 490px;
 }
+.contentC .content .content-menus .nav-tabs .active a {
+  border: none;
+  background: #51b2f1;
+  color: white;
+  border-radius: 0;
+  margin: 0;
+}
+.contentC .content .content-menus .nav-tabs > li {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  background: white;
+  border: 1px solid #f2f4f6;
+}
+.contentC .content .content-menus .nav-tabs > li > a {
+  background: transparent;
+  height: 100%;
+  line-height: 40px;
+  color: black;
+  text-decoration: none;
+}
+.contentC .content .content-menus .nav-tabs > li > a:hover {
+  background: transparent;
+  border: none;
+}
+.contentC .content .content-menus .nav-tabs > li:hover {
+  background: #51b2f1;
+  color: white;
+}
+.contentC .content .content-menus .nav-tabs > li:hover > a {
+  color: white;
+}
 .contentC .content .content-menus > ul > li {
   height: 60px;
   text-align: center;
@@ -256,7 +289,14 @@ hr {
   line-height: 57px;
   justify-content: flex-end;
 }
+.content .contetn-exhibition .contetn-exhibition-header .breadcrumb .blue {
+  color: #51b2f1;
+}
+.content .contetn-exhibition .contetn-exhibition-header .breadcrumb > li {
+  color: #60656a;
+}
 .content .contetn-exhibition .contetn-exhibition-header .breadcrumb > li > a {
+  text-decoration: none;
   color: #60656a;
 }
 .content .contetn-exhibition .pageTurning .pager li .bgButton {

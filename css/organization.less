@@ -1,7 +1,43 @@
 @import "_base.less";
 
 .content {
+    .content-menus{
+        margin-bottom: 30px;
+    }
     .contetn-exhibition {
+        #introduction{
+            .share{
+                position: relative;
+                top: -10px;
+            }
+            @media screen and (max-width:992px){
+                .contetn-exhibition-content{
+                    .contentText{
+                        .newsPic{
+                            img{
+                                width: 300px;
+                            }
+                           
+                        }
+                    }
+                }
+               
+               
+                
+            }
+        }
+        .contetn-exhibition-header{
+            @media screen and (max-width: 992px) {
+                .breadcrumb{
+                    display: none;
+                }
+            }
+            .breadcrumb{
+                .blue{
+                    color: @blue;
+                }
+            }
+        }
 
         .contetn-exhibition-referral {
             padding-top: 35px;
@@ -51,10 +87,27 @@
             }
 
             &>p {
+                .share{
+                    position: relative;
+                    top: -10px;
+                }
                 text-align: right;
                 border-bottom: 1px solid #f2f4f6;
             }
-
+            .map{
+               
+                .bdmap{
+                    margin-top: 50px;
+                    margin-bottom: 100px;
+                    width: 697px;
+                    height: 550px;
+                }
+            }
+            @media screen and (max-width: 992px) {
+                .bdmap{
+                   display: none;
+                }
+            }
             .relationWay {
                 text-align: left;
 
@@ -73,9 +126,28 @@
         }
 
         .memberList {
+            .nav-tabs{
+                border: none;
+            }
+            #mgTabs{
+                margin-top: 20px;
+                border: none;
+            }
+            .dropdownMenu{
+                margin-top: 20px;
+                border: 2px solid #797979;
+                a{
+                    border: none;
+                }
+                &:hover{
+                    border-color:@blue;
+                    color:@blue;
+                }
+            }
             margin-bottom: 40px;
             .pullMenu {
-                margin-bottom: 50px;
+                margin-top: 20px;
+                margin-bottom: 20px;
             }
 
             .group {
@@ -92,7 +164,6 @@
             .list {
                 width: 100%;
                 padding-top: 40px;
-                border-top: 1px solid #d6d5d5;
                 border-bottom: 1px solid #d6d5d5;
                 .pic {
                     .headerImg{
@@ -151,5 +222,6 @@
 }
 
 #relation {
-    display: none;
+
+    // display: none;
 }
