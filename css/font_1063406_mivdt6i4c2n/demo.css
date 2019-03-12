@@ -401,7 +401,7 @@ https://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javasc
  */
 code[class*="language-"],
 pre[class*="language-"] {
-  color: black;
+  color: @dark2;
   background: none;
   text-shadow: 0 1px white;
   font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;

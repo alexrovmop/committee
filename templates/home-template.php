@@ -52,13 +52,12 @@ get_header(); ?>
             if (have_posts()) : while (have_posts()) : the_post();
                     ?>
             <a href="<?php the_permalink(); ?>" class="col-md-4 project" href="">
-                <div>
-                    <img src="<?php bloginfo('template_url'); ?>/img/project1.png" alt="">
+                <div class="project-photo" style="background-image: url(<?php bloginfo('template_url'); ?>/img/project1.png);">
                     <div class="blue">
-                        <div> <i class="iconfont icon-jiantou_qiehuanzuo_o transform"></i></div>
+                        <div class="arrow"><i class="iconfont icon-jiantou_qiehuanzuo_o"></i></div>
                     </div>
                 </div>
-                <p title="<?php the_title(); ?>" href="<?php the_permalink(); ?>"><?php the_title(); ?></p>
+                <div class="project-title"><?php the_title(); ?></div>
             </a><?php endwhile;
         endif;
         wp_reset_query(); ?>
@@ -112,7 +111,7 @@ get_header(); ?>
             <div class="tab-content">
                 <div role="tabpanel" class="tab-pane active" id="home">
                     <div class="newsDetails row">
-                        <div class="left col-md-6">
+                        <div class="left news-top col-md-6">
                             <?php
                             $args = array(
                                 'cat' => 1,
@@ -121,7 +120,7 @@ get_header(); ?>
                             query_posts($args);
                             if (have_posts()) : while (have_posts()) : the_post();
                                     ?>
-                            <h3><?php echo get_the_time('m.d') ?></h3>
+                            <h3><?php echo date('M.d',get_the_time('U')) ?></h3>
                             <?php if (get_the_post_thumbnail($post_id) != '') {
                                 echo '<a href="';
                                 the_permalink();
@@ -132,9 +131,9 @@ get_header(); ?>
                                 echo '<a href="';
                                 the_permalink();
                                 echo '" class="thumbnail-wrapper">';
-                                echo '<img class="thumbnail" src="';
+                                echo '<div class="thumbnail" style="background-image: url(';
                                 echo catch_that_image();
-                                echo '" alt="" />';
+                                echo ');" ></div>';
                                 echo '</a>';
                             } ?>
                             <a class="newsTitle" title="<?php the_title(); ?>" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
@@ -183,7 +182,7 @@ get_header(); ?>
                 </div>
                 <div role="tabpanel" class="tab-pane" id="profile">
                     <div class="newsDetails row">
-                        <div class="left col-md-6">
+                        <div class="left news-top col-md-6">
                             <?php
                             $args = array(
                                 'cat' => 8,
@@ -255,7 +254,7 @@ get_header(); ?>
                 </div>
                 <div role="tabpanel" class="tab-pane" id="messages">
                     <div class="newsDetails row">
-                        <div class="left col-md-6">
+                        <div class="left news-top col-md-6">
                             <?php
                             $args = array(
                                 'cat' => 7,

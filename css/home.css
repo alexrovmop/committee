@@ -31,7 +31,7 @@ hr {
   height: 6px;
   width: 6px;
   border-width: 2px 2px 0 0;
-  border-color: #c8c8cd;
+  border-color: #C8C8CD;
   border-style: solid;
   transform: matrix(0.71, -0.71, 0.71, 0.71, 0, 0);
   position: absolute;
@@ -45,7 +45,7 @@ hr {
   height: 6px;
   width: 6px;
   border-width: 2px 2px 0 0;
-  border-color: #c8c8cd;
+  border-color: #C8C8CD;
   border-style: solid;
   transform: matrix(-0.71, 0.71, -0.71, -0.71, 0, 0);
   position: relative;
@@ -61,7 +61,7 @@ hr {
   height: 6px;
   width: 6px;
   border-width: 2px 2px 0 0;
-  border-color: #c8c8cd;
+  border-color: #C8C8CD;
   border-style: solid;
   transform: matrix(-0.71, -0.71, 0.71, -0.71, 0, 0);
   position: relative;
@@ -77,7 +77,7 @@ hr {
   height: 6px;
   width: 6px;
   border-width: 2px 2px 0 0;
-  border-color: #c8c8cd;
+  border-color: #C8C8CD;
   border-style: solid;
   transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
   position: relative;
@@ -152,60 +152,66 @@ hr {
   height: 10px;
 }
 /*重点项目*/
+.emphasisProject {
+  margin-bottom: 40px;
+}
 .emphasisProject .project {
+  display: block;
   text-decoration: none;
+  padding-left: 7px;
+  padding-right: 7px;
 }
-.emphasisProject .project:hover > div > div {
-  opacity: 0.6;
-}
-.emphasisProject .project:hover p {
-  background: #51b2f1;
-  color: white;
-}
-.emphasisProject .project > div {
+.emphasisProject .project .project-photo {
   position: relative;
+  background: center center no-repeat;
+  background-size: cover;
+  padding-top: 75%;
+  max-height: 300px;
 }
-.emphasisProject .project > div > img {
-  width: 100%;
-}
-.emphasisProject .project > div .blue {
+.emphasisProject .project .project-photo .blue {
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
-  background: #54779d;
+  left: 0;
+  background: rgba(10, 93, 169, 0.6);
   opacity: 0;
   transition: opacity 1s;
 }
-.emphasisProject .project > div .blue > div {
-  margin: 100px auto;
-  width: 158px;
-  height: 48px;
+.emphasisProject .project .project-photo .blue .arrow {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -25px 0 0 -80px;
+  width: 156px;
+  height: 46px;
+  line-height: 46px;
   border: 3px solid white;
   text-align: center;
 }
-.emphasisProject .project > div .blue > div .transform {
-  float: right;
-  margin-right: 64px;
-  margin-top: 3px;
+.emphasisProject .project .project-photo .blue .arrow .iconfont {
   font-size: 30px;
+  color: #fff;
 }
-.emphasisProject .project p {
-  white-space: nowrap;
-  text-overflow: ellipsis;
+.emphasisProject .project .project-title {
   overflow: hidden;
-  color: black;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 30px;
+  height: 80px;
+  line-height: 20px;
+  border-bottom: 2px solid #d5d5d5;
   font-size: 18px;
-  text-indent: 20px;
-  line-height: 30px;
-  padding-top: 31px;
-  padding-bottom: 31px;
-  border-bottom: 2px solid #b1b1b1;
+  color: #252728;
+}
+.emphasisProject .project:hover .project-photo .blue {
+  opacity: 1;
+}
+.emphasisProject .project:hover .project-title {
+  background: #51b2f1;
+  color: white;
 }
 /*关于专家委员会*/
-.aboutSpecialist .container .SpecialistBox .bottom .center {
-  padding-top: 63px;
-}
 .SpecialistBox .top .left,
 .SpecialistBox .top .right,
 .SpecialistBox .top .center {
@@ -325,7 +331,7 @@ hr {
 }
 .news .container .newsButton > li > a {
   border: none;
-  color: black;
+  color: #252728;
 }
 .news .container .newsButton > li > a:hover {
   background: white;
@@ -340,36 +346,43 @@ hr {
   bottom: -18px;
   text-decoration: none;
 }
-.news .container .newsDetails .left > h3 {
+.news .container .newsDetails .left.news-top > h3 {
   font-family: 'CenturyGothic';
   font-size: 30px;
   margin-bottom: 30px;
   text-indent: 20px;
 }
-.news .container .newsDetails .left .arrow {
+.news .container .newsDetails .left.news-top .arrow {
   text-decoration: none;
 }
-.news .container .newsDetails .left .arrow i {
+.news .container .newsDetails .left.news-top .arrow i {
   color: #a3a3a3;
   float: left;
 }
-.news .container .newsDetails .left .thumbnail-wrapper .thumbnail {
-  width: 400px;
+.news .container .newsDetails .left.news-top .thumbnail-wrapper {
+  display: block;
+}
+.news .container .newsDetails .left.news-top .thumbnail-wrapper .thumbnail {
+  width: 100%;
+  height: 0;
+  padding-top: 62.5%;
+  background: #f6f6f6 center center no-repeat;
+  background-size: cover;
   border: none;
 }
-.news .container .newsDetails .left > a > img {
+.news .container .newsDetails .left.news-top > a > img {
   margin-bottom: 43px;
 }
-.news .container .newsDetails .left .newsTitle {
+.news .container .newsDetails .left.news-top .newsTitle {
   text-decoration: none;
   display: block;
-  color: black;
+  color: #252728;
   margin-top: 23px;
   font-family: "MicrosoftYaHei";
   font-size: 18px;
   margin-bottom: 34px;
 }
-.news .container .newsDetails .left p {
+.news .container .newsDetails .left.news-top p {
   color: #60656a;
   font-size: 16px;
   text-align: left;
@@ -418,7 +431,7 @@ hr {
   float: right;
 }
 .news .container .newsDetails .right > ul > li > div > a:hover > span {
-  color: black;
+  color: #252728;
 }
 .news .container .newsDetails .right > ul > li > p {
   width: 358px;
@@ -449,4 +462,3 @@ hr {
     padding-left: 0;
   }
 }
-/*# sourceMappingURL=home.css.map */
