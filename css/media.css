@@ -31,7 +31,7 @@ hr {
   height: 6px;
   width: 6px;
   border-width: 2px 2px 0 0;
-  border-color: #c8c8cd;
+  border-color: #C8C8CD;
   border-style: solid;
   transform: matrix(0.71, -0.71, 0.71, 0.71, 0, 0);
   position: absolute;
@@ -45,7 +45,7 @@ hr {
   height: 6px;
   width: 6px;
   border-width: 2px 2px 0 0;
-  border-color: #c8c8cd;
+  border-color: #C8C8CD;
   border-style: solid;
   transform: matrix(-0.71, 0.71, -0.71, -0.71, 0, 0);
   position: relative;
@@ -61,7 +61,7 @@ hr {
   height: 6px;
   width: 6px;
   border-width: 2px 2px 0 0;
-  border-color: #c8c8cd;
+  border-color: #C8C8CD;
   border-style: solid;
   transform: matrix(-0.71, -0.71, 0.71, -0.71, 0, 0);
   position: relative;
@@ -77,7 +77,7 @@ hr {
   height: 6px;
   width: 6px;
   border-width: 2px 2px 0 0;
-  border-color: #c8c8cd;
+  border-color: #C8C8CD;
   border-style: solid;
   transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
   position: relative;
@@ -117,41 +117,80 @@ hr {
     font-size: 28px;
     text-align: center;
     font-weight: normal;
-    margin: 54px 0 37px 0;
+    margin: 30px 0 20px 0;
   }
-  .header .container .navbar .container-fluid .navbar-collapse #menu-mian .menu-item a {
-    font-size: 14px;
+  .header .navpadding {
+    min-height: 80px;
+  }
+  .header .container .navbar .container-fluid .navbar-header {
+    position: relative;
+  }
+  .header .container .navbar .container-fluid .navbar-header .navbar-brand {
+    padding: 10px 15px 10px 0;
+    margin-right: 44px;
+    float: none;
   }
   .header .container .navbar .container-fluid .navbar-header .navbar-brand .logo {
     width: 60px;
     height: auto;
+    margin-right: 5px;
   }
   .header .container .navbar .container-fluid .navbar-header .navbar-brand h1 {
     font-size: 16px;
     float: none;
+    line-height: 1.2;
+  }
+  .header .navbar-toggle {
+    margin-right: 0;
+    margin-top: 20px;
+  }
+  .header .nav-title {
+    margin-top: 10px;
+  }
+  .header .nav-title > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+  }
+  .header .nav-title > li > a:hover {
+    border-bottom-width: 3px;
+  }
+  .header .nav-title > li.active > a {
+    border-bottom-width: 3px;
   }
   .banner .carousel .carousel-indicators {
     display: none;
   }
   .banner .carousel .carousel-inner .item {
-    height: 300px;
+    height: auto;
   }
   .banner .carousel .carousel-inner .item > .container {
-    height: 300px;
+    height: auto;
     position: relative;
+    width: 100%;
+    padding-top: 56.25%;
   }
   .banner .carousel .carousel-inner .item .bannerMsg {
-    display: none;
+    width: auto;
+    height: auto;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
+    margin: 0;
+    position: absolute;
+    padding: 15px 20px;
+    background: rgba(81, 178, 241, 0.7);
   }
   .banner .carousel .carousel-inner .item .bannerMsg h1 {
-    font-size: 48px;
+    font-size: 24px;
     color: white;
-    margin: 0 0 23px 0;
+    margin: 20px 0 15px;
   }
   .banner .carousel .carousel-inner .item .bannerMsg p {
     color: white;
-    font-size: 18px;
-    margin-bottom: 48px;
+    font-size: 16px;
+    margin-bottom: 0;
   }
   .banner .carousel .carousel-inner .item .bannerMsg > a {
     display: block;
@@ -162,6 +201,125 @@ hr {
   }
   .footer .footer-top .relation {
     text-align: center;
+  }
+  .emphasisProject {
+    margin-bottom: 0;
+  }
+  .emphasisProject .project {
+    padding-left: 0;
+    padding-right: 0;
+    margin: 15px;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .emphasisProject .project .project-title {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 10px 15px;
+    height: auto;
+    line-height: 1.5;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    border-bottom-width: 0;
+  }
+  .SpecialistBox .top .left,
+  .SpecialistBox .top .right,
+  .SpecialistBox .top .center {
+    position: relative;
+    height: 0;
+    padding-top: 40%;
+  }
+  .SpecialistBox .top .left img,
+  .SpecialistBox .top .right img,
+  .SpecialistBox .top .center img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .SpecialistBox .top .right,
+  .SpecialistBox .top .center {
+    padding-top: 35%;
+  }
+  .SpecialistBox .top .center .expert {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 15px;
+    padding-top: 15%;
+  }
+  .SpecialistBox .top .center a {
+    font-size: 20px;
+  }
+  .SpecialistBox .bottom .left,
+  .SpecialistBox .bottom .right {
+    padding: 40px 15px;
+    height: auto;
+  }
+  .SpecialistBox .bottom .left a,
+  .SpecialistBox .bottom .right a {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  .SpecialistBox .bottom .left a .transform,
+  .SpecialistBox .bottom .right a .transform {
+    margin-top: 5px;
+    font-size: 16px;
+  }
+  .SpecialistBox .bottom .center a {
+    margin-top: 70px;
+  }
+  .newsDetails .news-top {
+    padding-top: 15px;
+  }
+  .newsDetails .news-top h3 {
+    display: none;
+  }
+  .newsDetails .news-top .thumbnail-wrapper .thumbnail {
+    margin-bottom: 0;
+  }
+  .newsDetails .news-top .newsTitle {
+    margin: 10px 0 !important;
+  }
+  .newsDetails .right {
+    padding-right: 0 !important;
+  }
+  .newsDetails .right > ul > li {
+    padding-left: 0 !important;
+  }
+  .newsDetails .right > ul > li::before {
+    display: none !important;
+  }
+  .newsDetails .right > ul > li > div > a {
+    margin: 15px 0 !important;
+  }
+  .newsDetails .right > ul > li p {
+    margin-bottom: 20px !important;
+  }
+  .newsDetails .more {
+    position: relative !important;
+    bottom: 0 !important;
+    display: block;
+    margin: 15px;
+    text-align: center;
+    border: rgba(81, 178, 241, 0.5) solid 1px;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  .newsDetails .more:active {
+    background: rgba(81, 178, 241, 0.1);
   }
   .contetn-exhibition-content .contentText .newsPic img {
     width: 100%;
@@ -182,4 +340,3 @@ hr {
     padding-top: 10px;
   }
 }
-/*# sourceMappingURL=media.css.map */

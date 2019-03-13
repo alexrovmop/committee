@@ -75,11 +75,13 @@ get_header(); ?>
                 <div class="left col-md-6">
                     <img src="<?php bloginfo('template_url'); ?>/img/committee1.png" alt="">
                 </div>
-                <div class="center left col-md-3">
-                    <a href="http://wordpress.local/?cat=18">专家委员会成员</a>
-                    <p>钟南山、 赵玉沛、马小军、刘正印等</p>
+                <div class="center col-md-3 col-xs-6">
+                    <div class="expert">
+                        <a href="http://wordpress.local/?cat=18">专家委员会成员</a>
+                        <p>钟南山、 赵玉沛、马小军、刘正印等</p>
+                    </div>
                 </div>
-                <div class="right left col-md-3">
+                <div class="right col-md-3 col-xs-6">
                     <img src="<?php bloginfo('template_url'); ?>/img/committee2.png" alt="">
                 </div>
             </div>
@@ -88,11 +90,11 @@ get_header(); ?>
                     <a href="http://kangnaiyao.mpf.org.cn/category/organization/committeeintroduction/">专家委员会简介<i class="iconfont icon-jiantou_qiehuanzuo_o transform"></i></a>
                     <p>对我国细菌耐药和抗菌药物应用的相关性进行研究，提出政策建议…</p>
                 </div>
-                <div class="center col-md-3">
+                <div class="center col-md-3 col-xs-6">
                     <a href="">查看更多成员</a>
                     <a class="boxA" href="http://kangnaiyao.mpf.org.cn/category/organization/committmenber/"><i class="iconfont icon-jiantou_qiehuanzuo_o transform"></i></a>
                 </div>
-                <div class="right col-md-3">
+                <div class="right col-md-3 col-xs-6">
                     <a href="http://kangnaiyao.mpf.org.cn/category/organization/officeinformation/">联系我们<i class="iconfont icon-jiantou_qiehuanzuo_o transform"></i></a>
                     <p>办公室联系人：北京协和医院 徐英春</p>
                     <p>电话：010-69159766</p>

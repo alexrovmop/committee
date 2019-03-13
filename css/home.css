@@ -31,7 +31,7 @@ hr {
   height: 6px;
   width: 6px;
   border-width: 2px 2px 0 0;
-  border-color: #c8c8cd;
+  border-color: #C8C8CD;
   border-style: solid;
   transform: matrix(0.71, -0.71, 0.71, 0.71, 0, 0);
   position: absolute;
@@ -45,7 +45,7 @@ hr {
   height: 6px;
   width: 6px;
   border-width: 2px 2px 0 0;
-  border-color: #c8c8cd;
+  border-color: #C8C8CD;
   border-style: solid;
   transform: matrix(-0.71, 0.71, -0.71, -0.71, 0, 0);
   position: relative;
@@ -61,7 +61,7 @@ hr {
   height: 6px;
   width: 6px;
   border-width: 2px 2px 0 0;
-  border-color: #c8c8cd;
+  border-color: #C8C8CD;
   border-style: solid;
   transform: matrix(-0.71, -0.71, 0.71, -0.71, 0, 0);
   position: relative;
@@ -77,7 +77,7 @@ hr {
   height: 6px;
   width: 6px;
   border-width: 2px 2px 0 0;
-  border-color: #c8c8cd;
+  border-color: #C8C8CD;
   border-style: solid;
   transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
   position: relative;
@@ -161,7 +161,7 @@ hr {
 }
 .emphasisProject .project .project-photo {
   position: relative;
-  background: center center no-repeat;
+  background: #f6f6f6 center center no-repeat;
   background-size: cover;
   padding-top: 75%;
   max-height: 300px;
@@ -271,7 +271,8 @@ hr {
   color: white;
   text-align: left;
   padding-top: 53px;
-  padding-left: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .SpecialistBox .bottom .left p,
 .SpecialistBox .bottom .right p {
@@ -292,6 +293,7 @@ hr {
 .SpecialistBox .bottom .right a .transform {
   float: right;
   font-size: 24px;
+  margin-right: 0;
 }
 .SpecialistBox .bottom .left a > img,
 .SpecialistBox .bottom .right a > img {
@@ -460,4 +462,3 @@ hr {
     padding-left: 0;
   }
 }
-/*# sourceMappingURL=home.css.map */
