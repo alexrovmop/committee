@@ -160,8 +160,24 @@ hr {
     border: 3px solid white;
     text-decoration: none;
   }
+  .footer {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .footer .footer-top .footer-nav .footerLinks {
+    display: none;
+  }
   .footer .footer-top .relation {
     text-align: center;
+  }
+  .footer .footer-top .relation .telephone {
+    font-size: 18px;
+  }
+  .footer .footer-top .relation p {
+    margin-bottom: 5px;
+  }
+  .footer .footer-top .relation h4 {
+    margin-bottom: 5px;
   }
   .contetn-exhibition-content .contentText .newsPic img {
     width: 100%;

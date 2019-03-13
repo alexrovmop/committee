@@ -27,28 +27,6 @@
                   <?php else : ?>
                   <?php endif; ?>
                 </ul>
-                    <!-- <ul class="col-md-3">
-                        <li class="footerTitle">机构介绍</li>
-                        <li>委员会介绍</li>
-                        <li>委员会成员</li>
-                        <li>办公室联系方式</li>
-                    </ul>
-                    <ul class="col-md-3">
-                        <li class="footerTitle">政策法规</li>
-                        <li>国家或上级发文</li>
-                        <li>专家委员会发文</li>
-                        <li>相关指南</li>
-                    </ul>
-                    <ul class="col-md-3">
-                        <li class="footerTitle">新闻动态</li>
-                        <li>工作动态</li>
-                        <li>行业新闻</li>
-                    </ul>
-                    <ul class="col-md-3">
-                        <li class="footerTitle">重点项目</li>
-                        <li>模式探索</li>
-                        <li>栏目一</li>
-                    </ul> -->
                 </div>
                 <!-- <div class="wx col-md-2">
                     <img class="wxCode" src="<?php bloginfo('template_url'); ?>/img/QRcode.png" alt="">

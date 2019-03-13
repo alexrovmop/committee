@@ -103,7 +103,7 @@ hr {
   font-size: 20px;
 }
 .banner .carousel .carousel-inner .item {
-  background: center center no-repeat;
+  height: 720px;
 }
 .banner .carousel .carousel-inner .item > .container {
   height: 720px;
@@ -359,6 +359,10 @@ hr {
 }
 .news .container .newsDetails .left.news-top .thumbnail-wrapper {
   display: block;
+}
+.news .container .newsDetails .left.news-top .thumbnail-wrapper .attachment-post-thumbnail {
+  width: 100%;
+  height: auto;
 }
 .news .container .newsDetails .left.news-top .thumbnail-wrapper .thumbnail {
   width: 100%;
