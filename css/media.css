@@ -1,4 +1,28 @@
 /*媒体查询*/
+@media screen and (min-width: 1080px) {
+  .banner .carousel .carousel-inner .item {
+    background-size: 100% auto;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .banner .carousel .carousel-inner .item {
+    height: 520px;
+    background-size: cover;
+  }
+  .banner .carousel .carousel-inner .item > .container {
+    height: 520px;
+  }
+  .banner .carousel .carousel-inner .item .bannerMsg {
+    margin-top: -120px;
+    width: 50%;
+    height: 240px;
+    overflow: hidden;
+    padding: 54px 35px 30px;
+  }
+  .banner .carousel .carousel-inner .item .bannerMsg h1 {
+    font-size: 36px;
+  }
+}
 @media screen and (max-width: 992px) {
   .header .container .navbar .container-fluid .navbar-header .navbar-brand h1 {
     display: none;
