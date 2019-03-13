@@ -10,6 +10,21 @@
                 position: relative;
                 top: -10px;
             }
+            .contetn-exhibition-content{
+                .contentText{
+                   line-height: 36px;
+                   padding-left: 30px;
+                   padding-right: 30px;
+                   .wp-block-image{
+                       text-align: center;
+                       margin-top: 20px;
+                       margin-bottom: 20px;
+                       img{
+                           width: 100%;
+                       }
+                   }
+                }
+            }
             @media screen and (max-width:992px){
                 .contetn-exhibition-content{
                     .contentText{
@@ -21,9 +36,6 @@
                         }
                     }
                 }
-               
-               
-                
             }
         }
         .contetn-exhibition-header{
@@ -126,6 +138,9 @@
         }
 
         .memberList {
+            .overall{
+                display: block;
+            }
             .nav-tabs{
                 border: none;
             }
@@ -165,7 +180,7 @@
                 width: 100%;
                 padding-top: 40px;
                 border-bottom: 1px solid #d6d5d5;
-                .pic {
+                .memberItem {
                     .headerImg{
                         position: relative;
                         .blueMask{
@@ -193,12 +208,12 @@
                         color: @dark2;
                         text-decoration: none;
                     }
-                    .last {
+                    .finally {
                         padding-bottom: 20px;
                         border-bottom: 5px solid transparent;
                     }
 
-                    &:hover .last {
+                    &:hover .finally {
                         border-color: #4eb1ec;
                     }
                     &:hover .blueMask{

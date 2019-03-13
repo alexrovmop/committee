@@ -31,7 +31,7 @@ hr {
   height: 6px;
   width: 6px;
   border-width: 2px 2px 0 0;
-  border-color: #C8C8CD;
+  border-color: #c8c8cd;
   border-style: solid;
   transform: matrix(0.71, -0.71, 0.71, 0.71, 0, 0);
   position: absolute;
@@ -45,7 +45,7 @@ hr {
   height: 6px;
   width: 6px;
   border-width: 2px 2px 0 0;
-  border-color: #C8C8CD;
+  border-color: #c8c8cd;
   border-style: solid;
   transform: matrix(-0.71, 0.71, -0.71, -0.71, 0, 0);
   position: relative;
@@ -61,7 +61,7 @@ hr {
   height: 6px;
   width: 6px;
   border-width: 2px 2px 0 0;
-  border-color: #C8C8CD;
+  border-color: #c8c8cd;
   border-style: solid;
   transform: matrix(-0.71, -0.71, 0.71, -0.71, 0, 0);
   position: relative;
@@ -77,7 +77,7 @@ hr {
   height: 6px;
   width: 6px;
   border-width: 2px 2px 0 0;
-  border-color: #C8C8CD;
+  border-color: #c8c8cd;
   border-style: solid;
   transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
   position: relative;
@@ -107,3 +107,4 @@ hr {
   border-radius: 4px;
   color: #252728;
 }
+/*# sourceMappingURL=project.css.map */
