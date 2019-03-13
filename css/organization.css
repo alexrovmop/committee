@@ -104,9 +104,6 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.content .contetn-exhibition #introduction .contetn-exhibition-content .contentText .wp-block-image img {
-  width: 100%;
-}
 @media screen and (max-width: 992px) {
   .content .contetn-exhibition #introduction .contetn-exhibition-content .contentText .newsPic img {
     width: 300px;
@@ -158,11 +155,10 @@ hr {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.content .contetn-exhibition .relation > p {
-  text-align: right;
+.content .contetn-exhibition .relation .shareLinks {
   border-bottom: 1px solid #f2f4f6;
 }
-.content .contetn-exhibition .relation > p .share {
+.content .contetn-exhibition .relation .shareLinks .share {
   position: relative;
   top: -10px;
 }

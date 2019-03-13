@@ -10,7 +10,7 @@ get_header(); ?>
     <div class="container">
         <div class="content row">
             <div class="content-menus col-md-2">
-                <ul>
+                <ul class="classifyMenu">
                     <?php 
                     global $wp_query;
                     $cat_ID = get_query_var('cat');

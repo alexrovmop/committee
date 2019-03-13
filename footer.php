@@ -26,7 +26,7 @@
         <div class="container">
           <div class="footer-top row">
             <div class="footer-nav col-md-9 row">
-                <ul>
+                <ul class="footerLinks">
                     <?php 
                     global $wp_query;
                     $cat_ID = get_query_var('cat');

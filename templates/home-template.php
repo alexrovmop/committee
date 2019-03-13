@@ -105,7 +105,7 @@ get_header(); ?>
 <div class="news">
     <div class="container">
         <h1 class="title">新闻动态</h1>
-        <div>
+        <div class="newsDynamic">
             <ul class="nav nav-tabs newsButton" role="tablist">
                 <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">工作动态</a></li>
                 <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">行业新闻</a></li>

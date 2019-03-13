@@ -29,8 +29,8 @@ get_header(); ?>
                     </div>
                     <div id="relation" class="relation">
                         <h2>联系我们</h2>
-                        <p><span class="share">分享:</span> <span style=" display: inline-block" class="datasetconfig" data-title="分享标题" data-sites="yixin,weibo,weixin,qzone"></span></p>
-                        <div>
+                        <p class="shareLinks text-right"><span class="share">分享:</span> <span style=" display: inline-block" class="datasetconfig" data-title="分享标题" data-sites="yixin,weibo,weixin,qzone"></span></p>
+                        <div class="relationDetails">
                             <div class="relationWay">
                                 <div class="col-md-4">
                                     <h3> <i class="glyphicon glyphicon-earphone"></i> 联系方式</h3>
@@ -72,14 +72,14 @@ get_header(); ?>
                                 $article_id = 499; //页面的ID
                                 echo get_post($article_id)->post_title;
                                 ?></h1>
-                            <p><span class="share">分享:</span> <span style=" display: inline-block" class="datasetconfig" data-title="分享标题" data-sites="yixin,weibo,weixin,qzone"></span></p>
+                            <p class="shareLinks"><span class="share">分享:</span> <span style=" display: inline-block" class="datasetconfig" data-title="分享标题" data-sites="yixin,weibo,weixin,qzone"></span></p>
                         </div>
-                       
+
                         <div class="contentText">
-                        <?php 
-                                $article_id = 499; //页面的ID
-                                echo get_post($article_id)->post_content;
-                                ?>
+                            <?php 
+                            $article_id = 499; //页面的ID
+                            echo get_post($article_id)->post_content;
+                            ?>
                         </div>
                     </div>
                 </div>
