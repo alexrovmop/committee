@@ -21,8 +21,8 @@
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/global.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/home.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/news.css">
-    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/organization.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/media.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/organization.css">
 </head>
 
 <body>

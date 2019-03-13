@@ -7,7 +7,7 @@
 
 get_header(); ?>
 
- <div class="banner">
+<div class="banner">
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -52,7 +52,10 @@ get_header(); ?>
             if (have_posts()) : while (have_posts()) : the_post();
                     ?>
             <a href="<?php the_permalink(); ?>" class="col-md-4 project" href="">
-                <div class="project-photo" style="background-image: url(<?php bloginfo('template_url'); ?>/img/project1.png);">
+                <div class="project-photo" style="background-image: url(<?php 
+                                                                        $getThumbnail = wp_get_attachment_image_src(get_post_thumbnail_id(get_the_ID()), full);
+                                                                        echo $getThumbnail[0];
+                                                                        ?>);">
                     <div class="blue">
                         <div class="arrow"><i class="iconfont icon-jiantou_qiehuanzuo_o"></i></div>
                     </div>
@@ -86,7 +89,7 @@ get_header(); ?>
                     <p>对我国细菌耐药和抗菌药物应用的相关性进行研究，提出政策建议…</p>
                 </div>
                 <div class="center col-md-3">
-                    <a  href="">查看更多成员</a>
+                    <a href="">查看更多成员</a>
                     <a class="boxA" href="http://kangnaiyao.mpf.org.cn/category/organization/committmenber/"><i class="iconfont icon-jiantou_qiehuanzuo_o transform"></i></a>
                 </div>
                 <div class="right col-md-3">
@@ -120,7 +123,7 @@ get_header(); ?>
                             query_posts($args);
                             if (have_posts()) : while (have_posts()) : the_post();
                                     ?>
-                            <h3><?php echo date('M.d',get_the_time('U')) ?></h3>
+                            <h3><?php echo date('M.d', get_the_time('U')) ?></h3>
                             <?php if (get_the_post_thumbnail($post_id) != '') {
                                 echo '<a href="';
                                 the_permalink();
@@ -191,7 +194,7 @@ get_header(); ?>
                             query_posts($args);
                             if (have_posts()) : while (have_posts()) : the_post();
                                     ?>
-                            <h3><?php echo get_the_time('m.d') ?></h3>
+                            <h3><?php echo date('M.d', get_the_time('U')) ?></h3>
                             <?php if (get_the_post_thumbnail($post_id) != '') {
                                 echo '<a href="';
                                 the_permalink();
@@ -263,7 +266,7 @@ get_header(); ?>
                             query_posts($args);
                             if (have_posts()) : while (have_posts()) : the_post();
                                     ?>
-                            <h3><?php echo get_the_time('m.d') ?></h3>
+                            <h3><?php echo date('M.d', get_the_time('U')) ?></h3>
                             <?php if (get_the_post_thumbnail($post_id) != '') {
                                 echo '<a href="';
                                 the_permalink();

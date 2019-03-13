@@ -30,4 +30,23 @@
   .footer .footer-top .relation {
     text-align: center;
   }
+  .contetn-exhibition-content .contentText .newsPic img {
+    width: 100%;
+  }
+  .contetn-exhibition-header .breadcrumb {
+    display: none;
+  }
+  .relation .bdmap {
+    display: none;
+  }
+  .contentC {
+    padding-top: 10px;
+  }
+  .contentC .content .contetn-exhibition .contetn-exhibition-content .contentTitle h1 {
+    font-size: 28px;
+  }
+  .contentC .container .content {
+    padding-top: 10px;
+  }
 }
+/*# sourceMappingURL=media.css.map */
