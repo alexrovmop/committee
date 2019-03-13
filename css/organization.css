@@ -104,6 +104,10 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.content .contetn-exhibition #introduction .contetn-exhibition-content .contentText .wp-block-image img {
+  width: 100%;
+  height: auto;
+}
 @media screen and (max-width: 992px) {
   .content .contetn-exhibition #introduction .contetn-exhibition-content .contentText .newsPic img {
     width: 300px;

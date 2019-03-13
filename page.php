@@ -22,8 +22,8 @@ get_header(); ?>
                     <div class="contetn-exhibition-header">
                         <ol class="breadcrumb">
                             <li> <i class="glyphicon glyphicon-map-marker"></i> 您当前的位置</li>
-                            <li>首页</li>
-                            <li>机构介绍</li>
+                            <li> <a href="http://kangnaiyao.mpf.org.cn/">首页</a> </li>
+                            <li> <a href="http://kangnaiyao.mpf.org.cn/organization/">机构介绍</a> </li>
                             <li class="blue">办公室联系方式</li>
                         </ol>
                     </div>
@@ -60,8 +60,8 @@ get_header(); ?>
                     <div class="contetn-exhibition-header">
                         <ol class="breadcrumb">
                             <li> <i class="glyphicon glyphicon-map-marker"></i> 您当前的位置</li>
-                            <li>首页</li>
-                            <li>机构介绍</li>
+                            <li> <a href="http://kangnaiyao.mpf.org.cn/">首页</a> </li>
+                            <li> <a href="http://kangnaiyao.mpf.org.cn/organization/">机构介绍</a> </li>
                             <li class="blue">委员会简介</li>
                         </ol>
                     </div>
@@ -87,8 +87,8 @@ get_header(); ?>
                     <div class="contetn-exhibition-header">
                         <ol class="breadcrumb">
                             <li> <i class="glyphicon glyphicon-map-marker"></i> 您当前的位置</li>
-                            <li>首页</li>
-                            <li>机构介绍</li>
+                            <li> <a href="http://kangnaiyao.mpf.org.cn/">首页</a> </li>
+                            <li> <a href="http://kangnaiyao.mpf.org.cn/organization/">机构介绍</a> </li>
                             <li class="blue">委员会成员</li>
                         </ol>
                     </div>
