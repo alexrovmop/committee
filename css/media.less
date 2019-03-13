@@ -1,14 +1,31 @@
 @import "_base.less";
 /*媒体查询*/
-@media screen and (max-width: 1400px) {
+@media screen and (min-width: 1080px) {
     .banner {
         .carousel {
             .carousel-inner {
                 .item {
-                    height: 480px;
-                    backface-visibility: auto;
+                    background-size:  100% auto;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 1440px) {
+    .banner {
+        .carousel {
+            .carousel-inner {
+                .item {
+                    height: 520px;
+                    background-size:  cover;
                     & > .container {
-                        height: 480px;
+                        height: 520px;
+                    }
+                    .bannerMsg {
+                        margin-top: -120px; width: 50%; height: 240px; overflow: hidden; padding: 54px 35px 30px;
+                        h1 {
+                            font-size: 36px;
+                        }
                     }
                 }
             }

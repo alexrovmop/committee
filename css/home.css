@@ -104,7 +104,6 @@ hr {
 }
 .banner .carousel .carousel-inner .item {
   background: center center no-repeat;
-  background-size: 100% auto;
 }
 .banner .carousel .carousel-inner .item > .container {
   height: 720px;

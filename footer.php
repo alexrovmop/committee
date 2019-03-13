@@ -6,22 +6,7 @@
  */
 
 ?>
-<!DOCTYPE html> 
-<!DOCTYPE html>
-<html lang="zh-CN">
-<?php wp_footer(); ?>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>首页</title>
-    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/font_1063406_mivdt6i4c2n/iconfont.css">
-    <link href="<?php bloginfo('template_url'); ?>/bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/global.css">
-    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/home.css">
-</head>
 
-<body>
 <footer class="footer">
         <div class="container">
           <div class="footer-top row">
@@ -93,6 +78,3 @@
             sites: ['weixin,', 'weibo', 'yixin', 'qzone']
           })
     </script>
-</body>
-
-</html>
