@@ -75,7 +75,7 @@
                         } ?></p>
                     <p class="next">
                         <?php if (get_next_post($categoryIDS)) {
-                            next_post_link('上一篇: %link', '%title', true);
+                            next_post_link('下一篇: %link', '%title', true);
                         } else {
                             echo "已是最新文章";
                         } ?></p>

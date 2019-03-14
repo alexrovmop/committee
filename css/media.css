@@ -31,7 +31,7 @@ hr {
   height: 6px;
   width: 6px;
   border-width: 2px 2px 0 0;
-  border-color: #C8C8CD;
+  border-color: #c8c8cd;
   border-style: solid;
   transform: matrix(0.71, -0.71, 0.71, 0.71, 0, 0);
   position: absolute;
@@ -45,7 +45,7 @@ hr {
   height: 6px;
   width: 6px;
   border-width: 2px 2px 0 0;
-  border-color: #C8C8CD;
+  border-color: #c8c8cd;
   border-style: solid;
   transform: matrix(-0.71, 0.71, -0.71, -0.71, 0, 0);
   position: relative;
@@ -61,7 +61,7 @@ hr {
   height: 6px;
   width: 6px;
   border-width: 2px 2px 0 0;
-  border-color: #C8C8CD;
+  border-color: #c8c8cd;
   border-style: solid;
   transform: matrix(-0.71, -0.71, 0.71, -0.71, 0, 0);
   position: relative;
@@ -77,7 +77,7 @@ hr {
   height: 6px;
   width: 6px;
   border-width: 2px 2px 0 0;
-  border-color: #C8C8CD;
+  border-color: #c8c8cd;
   border-style: solid;
   transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
   position: relative;
@@ -349,6 +349,13 @@ body {
   .relation .bdmap {
     display: none;
   }
+  .content .contetn-exhibition .contetn-exhibition-footer p {
+    line-height: 28px;
+  }
+  .content .contetn-exhibition .contetn-exhibition-footer .next {
+    float: none;
+    margin-left: 25px;
+  }
   .contentC {
     padding-top: 10px;
   }
@@ -359,3 +366,4 @@ body {
     padding-top: 10px;
   }
 }
+/*# sourceMappingURL=media.css.map */
