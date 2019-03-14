@@ -28,7 +28,7 @@ get_header(); ?>
                 </ul>
             </div>
             <div id="member" class="contetn-exhibition col-md-10">
-                <div class="contetn-exhibition-header">
+                <div class="contetn-exhibition-header hidden-xs">
                     <ol class="breadcrumb">
                         <li> <i class="glyphicon glyphicon-map-marker"></i>您当前的位置</li>
                         <li><a href="http://wordpress.local">首页</a></li>
