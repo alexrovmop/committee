@@ -14,8 +14,8 @@
             <div class="dateYear"><?php echo get_the_time('Y-m') ?></div>
         </div>
         <div class="essayContent col-md-10 text-left col-xs-9">
-            <?php the_title(sprintf('<h3 class="entry-title">', esc_url(get_permalink())), '</h3>'); ?>
-            <div>
+            <?php the_title(sprintf('<h3 class="essay-title">', esc_url(get_permalink())), '</h3>'); ?>
+            <div class="essay-desc">
                 <?php if (has_excerpt()) {
                     echo $description = get_the_excerpt(); //文章编辑中的摘要
                 } else {
