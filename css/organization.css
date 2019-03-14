@@ -108,16 +108,6 @@ hr {
   width: 100%;
   height: auto;
 }
-@media screen and (max-width: 992px) {
-  .content .contetn-exhibition #introduction .contetn-exhibition-content .contentText .newsPic img {
-    width: 300px;
-  }
-}
-@media screen and (max-width: 992px) {
-  .content .contetn-exhibition .contetn-exhibition-header .breadcrumb {
-    display: none;
-  }
-}
 .content .contetn-exhibition .contetn-exhibition-header .breadcrumb .blue {
   color: #51b2f1;
 }
@@ -171,11 +161,6 @@ hr {
   margin-bottom: 100px;
   width: 697px;
   height: 550px;
-}
-@media screen and (max-width: 992px) {
-  .content .contetn-exhibition .relation .bdmap {
-    display: none;
-  }
 }
 .content .contetn-exhibition .relation .relationWay {
   text-align: left;

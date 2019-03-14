@@ -296,6 +296,9 @@ body {
   .SpecialistBox .bottom .center a {
     margin-top: 70px;
   }
+  .news {
+    margin-bottom: 30px;
+  }
   .newsDetails .news-top {
     padding-top: 15px;
   }
@@ -343,27 +346,33 @@ body {
   .contetn-exhibition-content .contentText .newsPic img {
     width: 100%;
   }
-  .relation .bdmap {
+  .contetn-exhibition-content .contetn-exhibition-header {
+    display: none !important;
+  }
+  .contetn-exhibition-content .relation .bdmap {
     display: none;
   }
-  .content .contetn-exhibition .contetn-exhibition-footer p {
+  .contetn-exhibition-content .content .contetn-exhibition .contetn-exhibition-footer p {
     line-height: 28px;
   }
-  .content .contetn-exhibition .contetn-exhibition-footer .next {
+  .contetn-exhibition-content .content .contetn-exhibition .contetn-exhibition-footer .next {
     float: none;
     margin-left: 25px;
   }
-  .content .contetn-exhibition .contetn-exhibition-footer .last {
+  .contetn-exhibition-content .content .contetn-exhibition .contetn-exhibition-footer .last {
     float: none;
   }
-  .contentC {
+  .contetn-exhibition-content .contentC {
     padding-top: 10px;
   }
-  .contentC .content .contetn-exhibition .contetn-exhibition-content .contentTitle h1 {
+  .contetn-exhibition-content .contentC .content .contetn-exhibition .contetn-exhibition-content .contentTitle h1 {
     font-size: 28px;
   }
-  .contentC .container .content {
+  .contetn-exhibition-content .contentC .container .content {
     padding-top: 10px;
+  }
+  .contetn-exhibition-content .content .contetn-exhibition .newsList .list .listOne {
+    padding: 20px 0;
   }
 }
 /*# sourceMappingURL=media.css.map */
