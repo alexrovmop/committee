@@ -299,6 +299,9 @@ body {
   .SpecialistBox .bottom .center a {
     margin-top: 70px;
   }
+  .news {
+    margin-bottom: 30px;
+  }
   .newsDetails .news-top {
     padding-top: 15px;
   }
@@ -343,8 +346,8 @@ body {
   .contetn-exhibition-content .contentText .newsPic img {
     width: 100%;
   }
-  .contetn-exhibition-header .breadcrumb {
-    display: none;
+  .contetn-exhibition-header {
+    display: none !important;
   }
   .relation .bdmap {
     display: none;
@@ -357,5 +360,8 @@ body {
   }
   .contentC .container .content {
     padding-top: 10px;
+  }
+  .content .contetn-exhibition .newsList .list .listOne {
+    padding: 20px 0;
   }
 }
