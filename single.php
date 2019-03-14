@@ -9,7 +9,7 @@
     <div class="container content">
         <div class="row" style="width:100%">
             <div class="contetn-exhibition">
-                <div class="contetn-exhibition-header">
+                <div class="contetn-exhibition-header hidden-xs">
                     <ol class="breadcrumb">
                         <li> <i class="glyphicon glyphicon-map-marker"></i> 您当前的位置</li>
                         <li><a href="">首页</a></li>

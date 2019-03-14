@@ -340,14 +340,8 @@ body {
   .newsDetails .more:active {
     background: rgba(81, 178, 241, 0.1);
   }
-  .contentC .content .contetn-exhibition .contetn-exhibition-header {
-    display: none;
-  }
   .contetn-exhibition-content .contentText .newsPic img {
     width: 100%;
-  }
-  .contetn-exhibition-content .contetn-exhibition-header {
-    display: none !important;
   }
   .contetn-exhibition-content .relation .bdmap {
     display: none;
@@ -373,6 +367,20 @@ body {
   }
   .contetn-exhibition-content .content .contetn-exhibition .newsList .list .listOne {
     padding: 20px 0;
+  }
+}
+@media screen and (max-width: 992px) {
+  .content .contetn-exhibition .newsList .itemEssay {
+    padding: 20px 0 20px 0;
+  }
+  .content .contetn-exhibition .newsList .itemEssay .essayDate {
+    border: none;
+  }
+  .content .contetn-exhibition .newsList .itemEssay .essayDate .dateYear {
+    font-size: 12px;
+  }
+  .content .contetn-exhibition .newsList .itemEssay .essayContent {
+    text-align: center;
   }
 }
 /*# sourceMappingURL=media.css.map */

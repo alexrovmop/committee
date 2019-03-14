@@ -8,15 +8,9 @@
 ?>
 
 <footer class="footer">
-<<<<<<< HEAD
         <div class="container">
           <div class="footer-top row">
             <div class="footer-nav col-md-9 row hidden-xs">
-=======
-    <div class="container">
-        <div class="footer-top row">
-            <div class="footer-nav col-md-9">
->>>>>>> 13640254c86ed9d2d18cfc4c5842fe04ed0e6ead
                 <ul class="footerLinks">
                     <?php 
                     global $wp_query;

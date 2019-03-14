@@ -19,7 +19,7 @@ get_header(); ?>
             </div>
             <div class="tab-content contetn-exhibition col-md-10">
                 <div role="tabpanel" class="tab-pane active" id="relation">
-                    <div class="contetn-exhibition-header">
+                    <div class="contetn-exhibition-header hidden-xs">
                         <ol class="breadcrumb">
                             <li> <i class="glyphicon glyphicon-map-marker"></i> 您当前的位置</li>
                             <li> <a href="http://kangnaiyao.mpf.org.cn/">首页</a> </li>
