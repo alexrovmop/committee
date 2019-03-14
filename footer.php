@@ -10,7 +10,7 @@
 <footer class="footer">
         <div class="container">
           <div class="footer-top row">
-            <div class="footer-nav col-md-9 row">
+            <div class="footer-nav col-md-9 row hidden-xs">
                 <ul class="footerLinks">
                     <?php 
                     global $wp_query;

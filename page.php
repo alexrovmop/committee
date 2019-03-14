@@ -122,7 +122,8 @@ get_header(); ?>
                                                 </div>
                                             </div>
                                             <h3><?php the_title(); ?></h3>
-                                            <p><?php if (has_excerpt()) {
+                                            <p>
+                                                <?php if (has_excerpt()) {
                                                     echo $description = get_the_excerpt(); //文章编辑中的摘要
                                                 } else {
                                                     echo mb_strimwidth(strip_tags(apply_filters('the_content', $post->post_content)), 0, 50, "……"); //文章编辑中若无摘要，自定截取文章内容字数做为摘要

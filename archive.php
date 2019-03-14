@@ -32,52 +32,50 @@ get_header(); ?>
                     <ol class="breadcrumb">
                         <li> <i class="glyphicon glyphicon-map-marker"></i>您当前的位置</li>
                         <li><a href="http://wordpress.local">首页</a></li>
-                            <?php 
-                            $categories = get_the_category();
-                            echo '<li>';
-                            foreach( $categories as $category ){
-                                 if($category->parent != 0){
-                                      $parent_category = get_term( $category->parent );
-                                      echo '<a class="blue" href="' . esc_url( get_category_link($parent_category->term_id)) . '">' . esc_html($parent_category->name) . ' </a>';
-                                      break;
-                                 }
+                        <?php 
+                        $categories = get_the_category();
+                        echo '<li>';
+                        foreach ($categories as $category) {
+                            if ($category->parent != 0) {
+                                $parent_category = get_term($category->parent);
+                                echo '<a class="blue" href="' . esc_url(get_category_link($parent_category->term_id)) . '">' . esc_html($parent_category->name) . ' </a>';
+                                break;
                             }
-                            echo '</li>';
-                            ?>
-                            <!-- <?php 
-                            echo '<li> ';
-                            foreach( $categories as $category ){
-                                 if($category->parent != 0){
-                                      echo '<a href="' . esc_url( get_category_link($category->term_id)) . '">' . esc_html($category->name) . ' </a>';
-                                 }
-                            }
-                            ?> -->
+                        }
+                        echo '</li>';
+                        ?>
+                        <!-- <?php 
+                                echo '<li> ';
+                                foreach ($categories as $category) {
+                                    if ($category->parent != 0) {
+                                        echo '<a href="' . esc_url(get_category_link($category->term_id)) . '">' . esc_html($category->name) . ' </a>';
+                                    }
+                                }
+                                ?> -->
                     </ol>
                 </div>
-                <div class="newsList">
-                    <ul class="list">
-                        <?php if (have_posts()) : ?>
+                <ul class="newsList">
+                    <?php if (have_posts()) : ?>
 
-                        <?php  /* Start the Loop */ ?>
-                        <?php while (have_posts()) : the_post(); ?>
+                    <?php  /* Start the Loop */ ?>
+                    <?php while (have_posts()) : the_post(); ?>
 
-                        <?php
+                    <?php
 
 
-                        get_template_part('template-parts/content', 'summary');
-                        ?>
+                    get_template_part('template-parts/content', 'summary');
+                    ?>
 
-                        <?php endwhile; ?>
+                    <?php endwhile; ?>
 
-                        <?php the_posts_pagination(); ?>
+                    <?php the_posts_pagination(); ?>
 
-                        <?php else : ?>
+                    <?php else : ?>
 
-                        <?php get_template_part('template-parts/content', 'none'); ?>
+                    <?php get_template_part('template-parts/content', 'none'); ?>
 
-                        <?php endif; ?>
-                    </ul>
-                </div>
+                    <?php endif; ?>
+                </ul>
             </div>
         </div>
     </div>
